@@ -8,7 +8,7 @@ SELECT
     ROUND(AVG(combined_consumption_le_100km), 2) AS avg_combined_consumption,
     ROUND(AVG(eco_score), 1) AS avg_eco_score
 FROM
-    `horse-503615.horse_updated.analytics`
+    `your_project.your_dataset.analytics`
 GROUP BY
     powertrain_type
 ORDER BY
@@ -30,7 +30,7 @@ SELECT
         ), 2
     ) AS co2_change_vs_prev_year
 FROM
-    `horse-503615.horse_updated.analytics`
+    `your_project.your_dataset.analytics`
 GROUP BY
     model_year, powertrain_type
 ORDER BY
@@ -48,7 +48,7 @@ WITH manufacturer_stats AS (
         ROUND(AVG(co2_emissions_g_km), 2) AS avg_fleet_co2,
         RANK() OVER (ORDER BY AVG(co2_emissions_g_km) ASC) AS cleanliness_rank
     FROM
-        `horse-503615.horse_updated.analytics`
+        `your_project.your_dataset.analytics`
     GROUP BY
         manufacturer
     HAVING
@@ -74,7 +74,7 @@ SELECT
         / COUNT(*), 1
     ) AS pct_electrified
 FROM
-    `horse-503615.horse_updated.analytics`
+    `your_project.your_dataset.analytics`
 GROUP BY
     vehicle_class
 ORDER BY

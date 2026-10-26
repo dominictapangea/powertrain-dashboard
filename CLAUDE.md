@@ -47,9 +47,9 @@ Distribuție actuală: Conventional ICE (Gasoline) 715 · BEV 90 · PHEV 43 · D
 Consum mediu (Le/100 km): BEV 2,42 · PHEV 3,58 · Diesel 10,33 · Gasoline 11,01 · Flex-Fuel 18,70. CO2 mediu (g/km): BEV 0 · PHEV 91,1 · Gasoline 258,0 · Diesel 277,5 · Flex-Fuel 309,7.
 
 ## BigQuery
-Tabelă: `` `horse-503615.horse_updated.analytics` `` (proiect GCP `horse-503615`, dataset `horse_updated`) — hardcodată în toate cele 4 query-uri din `queries_v2.sql`. Dacă se schimbă proiectul/datasetul, se înlocuiește peste tot.
+Tabelă: `` `your_project.your_dataset.analytics` `` — placeholder în toate cele 4 query-uri din `queries_v2.sql`; numele real al proiectului GCP și al datasetului nu sunt păstrate în repo. Înainte de a rula query-urile în BigQuery, înlocuiește placeholderul cu numele real.
 
-**Stare: ✅ rezolvat.** Tabela `horse_updated.analytics` a fost reîncărcată cu schema v2 (16 coloane, 872 rânduri), din `cleaned_horse_powertrain_data_v2.csv`. Query-urile din `queries_v2.sql` nu folosesc coloanele schimbate și rămân valide.
+**Stare: ✅ rezolvat.** Tabela `analytics` din BigQuery a fost reîncărcată cu schema v2 (16 coloane, 872 rânduri), din `cleaned_horse_powertrain_data_v2.csv`. Query-urile din `queries_v2.sql` nu folosesc coloanele schimbate și rămân valide.
 
 Query-uri: (1) KPI pe tip de propulsie, (2) evoluție CO2 an-de-an cu `LAG`, (3) top 5 producători cei mai curați (`RANK`, minim 5 modele), (4) % electrificare pe clasă de vehicul.
 
@@ -91,13 +91,13 @@ Istoric: versiunea v1 a dashboard-ului (739 de vehicule, categoriile `Convention
 ## Convenții pentru lucrul în acest proiect
 - Păstrează numele de coloane `snake_case` în engleză; orice coloană nouă trebuie propagată în ETL, în tabela BigQuery și în sursele de date din Looker Studio/Power BI.
 - Nu modifica fișierele CSV sursă; toate transformările se fac în `etl_pipeline_v2.py`.
-- După orice schimbare de schemă: rulează ETL, reîncarcă `cleaned_horse_powertrain_data_v2.csv` în BigQuery (`horse_updated.analytics`), apoi reîmprospătează dashboard-urile.
+- După orice schimbare de schemă: rulează ETL, reîncarcă `cleaned_horse_powertrain_data_v2.csv` în tabela `analytics` din BigQuery, apoi reîmprospătează dashboard-urile.
 - Când raportezi cifre (media CO2, nr. vehicule), calculează-le din `cleaned_horse_powertrain_data_v2.csv`, nu din PDF-urile vechi.
 - Sursa datelor este Natural Resources Canada (Government of Canada Open Data) — de citat în orice prezentare.
 
 
 ## Următorii pași (prioritizați)
-1. ✅ Făcut: `cleaned_horse_powertrain_data_v2.csv` reîncărcat în BigQuery (`horse_updated.analytics`, 16 coloane, 872 rânduri).
+1. ✅ Făcut: `cleaned_horse_powertrain_data_v2.csv` reîncărcat în BigQuery (tabela `analytics`, 16 coloane, 872 rânduri).
 2. ✅ Făcut: Looker Studio și Power BI reconectate la v2; exporturile sunt în `docs/`.
 3. Înlocuiește Query 2 cu o analiză mai informativă (pe clasă de vehicul / cilindree).
 4. Argumente CLI pentru căi, câteva teste pe schema output.
