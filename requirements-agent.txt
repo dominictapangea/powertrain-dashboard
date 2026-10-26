@@ -1,0 +1,5 @@
+google-genai==2.33.0
+google-cloud-bigquery==3.46.2
+python-dotenv==1.2.4
+sqlglot==30.25.0
+pytest==9.1.1

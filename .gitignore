@@ -10,6 +10,7 @@ __pycache__/
 # Credentials / secrets (Google Cloud, API keys, env files)
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 *.p12

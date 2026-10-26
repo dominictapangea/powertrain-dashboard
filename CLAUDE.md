@@ -53,6 +53,12 @@ Tabelă: `` `your_project.your_dataset.analytics` `` — placeholder în toate c
 
 Query-uri: (1) KPI pe tip de propulsie, (2) top 5 producători cei mai curați (`RANK`, minim 5 modele), (3) % electrificare pe clasă de vehicul.
 
+## Agent (întrebări în limbaj natural pe tabela `analytics`)
+Folder `agent/`: script de terminal (`python agent\agent.py`) care folosește Gemini (`google-genai`, Interactions API, model implicit `gemini-3.5-flash-lite`; `gemini-3.8-flash` și `3.6-flash` expirau sau durau 40–95 s la testare) cu un singur tool, `run_sql(query)`. Fișiere: `agent.py` (bucla și BigQuery), `sql_guard.py` (validator `sqlglot`: un singur SELECT, doar tabela `analytics`, `LIMIT` forțat la 100), `schema_info.py` (descrierea tabelei pentru model), teste `test_*.py` (`python -m pytest agent`, rulează offline) și `agent/README.md`.
+- Setări în `.env` din rădăcină (git-ignorat; model în `.env.example`): `GEMINI_API_KEY`, `GEMINI_MODEL`, `BQ_PROJECT`, `BQ_DATASET`. BigQuery se autentifică prin `gcloud auth application-default login`, fără fișier de chei. Dependențe: `pip install -r requirements-agent.txt`.
+- Interogările rulează cu `maximum_bytes_billed` = 100 MB (BigQuery taxează minimum 10 MB pe interogare) și după un dry run.
+- Dacă schimbi schema tabelei, actualizează valorile din `schema_info.py` (testul le compară cu CSV-ul).
+
 ## Dashboard-uri
 
 **Stare: ✅ ambele dashboard-uri sunt reconectate la datele v2** (tabela BigQuery / CSV-ul curat de 872 rânduri). Același layout în ambele instrumente, „Powertrain & Emissions Dashboard":
