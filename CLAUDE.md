@@ -16,7 +16,7 @@ Limba de lucru cu utilizatorul: **română**. Codul, numele de coloane și comen
 | `queries_v2.sql` | 4 interogări BigQuery pentru KPI-uri și analize |
 | `venv/` | Mediu virtual Python (nu se editează, nu se analizează) |
 
-Repo git (branch `main`, remote `origin` = github.com/dominictapangea/powertrain-dashboard; commit-urile se fac fără trailer `Co-Authored-By`, cu emailul noreply de GitHub); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Power BI: `horse_dashboard.pbix` (66 KB, conectat la datele v2)  și captura `docs/PowerBI_Dashboard.png`. Looker Studio: `docs/Powertrain_Dashboard.pdf` (export pe datele v2, același layout și aceleași cifre ca în Power BI). „Powertrain & Emissions Dashboard": 872 vehicule, CO2 mediu 223,87 g/km, consum mediu 9,80 Le/100km, 15,3% electrificate, filtre pe `vehicle_class` și `model_year`, două bar chart-uri pe tip de propulsie, notă despre CO2 la țeavă). Nu există în folder teste. Dashboard-urile Looker Studio (PDF-urile v1 de mai jos) trăiesc în afara repo-ului.
+Repo git (branch `main`, remote `origin` = github.com/dominictapangea/powertrain-dashboard; commit-urile se fac fără trailer `Co-Authored-By`, cu emailul noreply de GitHub); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Nu există în folder teste. Dashboard-urile (Power BI și Looker Studio) sunt descrise în secțiunea „Dashboard-uri".
 
 ## Pipeline
 
@@ -49,17 +49,25 @@ Consum mediu (Le/100 km): BEV 2,42 · PHEV 3,58 · Diesel 10,33 · Gasoline 11,0
 ## BigQuery
 Tabelă: `` `horse-503615.horse_updated.analytics` `` (proiect GCP `horse-503615`, dataset `horse_updated`) — hardcodată în toate cele 4 query-uri din `queries_v2.sql`. Dacă se schimbă proiectul/datasetul, se înlocuiește peste tot.
 
-**De făcut:** tabela din BigQuery are încă schema veche (12 coloane, consum PHEV vechi, tier-uri vechi). După fixurile din ETL trebuie reîncărcat CSV-ul nou (cu înlocuirea tabelei / schema nouă de 16 coloane) și reîmprospătate dashboard-urile. Query-urile din `queries_v2.sql` nu folosesc coloanele schimbate și rămân valide.
+**Stare: ✅ rezolvat.** Tabela `horse_updated.analytics` a fost reîncărcată cu schema v2 (16 coloane, 872 rânduri), din `cleaned_horse_powertrain_data_v2.csv`. Query-urile din `queries_v2.sql` nu folosesc coloanele schimbate și rămân valide.
 
 Query-uri: (1) KPI pe tip de propulsie, (2) evoluție CO2 an-de-an cu `LAG`, (3) top 5 producători cei mai curați (`RANK`, minim 5 modele), (4) % electrificare pe clasă de vehicul.
 
-## Dashboard-uri (PDF-uri în `Desktop\Aplicație_Horse_Technologies\`)
-- `Dominic_Tapangea_Powertrain_Dashboard_Portfolio.pdf` — „Automotive Powertrain & Emissions Intelligence Dashboard" (Looker Studio): tabel `powertrain_type` × `total_vehicles`, bar chart `avg_co2_emissions_g_km`, scorecard-uri (739 vehicule, 252,09 g/km, 13,95 L/100km).
-- `Raport_fără_titlu.pdf` — raport Looker Studio mai vechi, încă fără titlu: 392 vehicule, CO2 mediu 264,34, putere medie 104,47 CP, grafice pe `manufacturer`, `fuel_consumption_l_100km`, `engine_power_hp`.
+## Dashboard-uri
 
-Versiunea actuală (v2) a dashboard-ului Looker Studio este `docs/Powertrain_Dashboard.pdf` din repo; cele două PDF-uri de mai sus rămân doar pe Desktop, ca istoric.
+**Stare: ✅ ambele dashboard-uri sunt reconectate la datele v2** (tabela BigQuery / CSV-ul curat de 872 rânduri). Același layout în ambele instrumente, „Powertrain & Emissions Dashboard":
+- KPI-uri: 872 vehicule · CO2 mediu 223,87 g/km · consum mediu 9,80 Le/100km · 15,3% electrificate.
+- Filtre pe `vehicle_class` și `model_year`; două bar chart-uri pe tip de propulsie (CO2 mediu și consum mediu).
+- Notă în dashboard: doar CO2 la țeavă (fără producția de electricitate/baterie); sursa: Natural Resources Canada.
 
-**Atenție: ambele PDF-uri de pe Desktop sunt generate din date vechi (v1), nu din v2.** Folosesc categoriile `Conventional ICE / Hybrid Powertrain / Alternative Synthetic Fuel` și coloane (`engine_power_hp`, `fuel_consumption_l_100km`) care nu mai există în schema v2. Dashboard-ul trebuie reconectat la tabela v2 și PDF-ul de portofoliu regenerat.
+| Instrument | Fișier în repo |
+|---|---|
+| Power BI | `horse_dashboard.pbix` (66 KB) și captura `docs/PowerBI_Dashboard.png` |
+| Looker Studio | `docs/Powertrain_Dashboard.pdf` (export PDF) |
+
+Link public Looker Studio: https://datastudio.google.com/s/gN-N_tdDh6o
+
+Istoric: versiunea v1 a dashboard-ului (739 de vehicule, categoriile `Conventional ICE / Hybrid Powertrain / Alternative Synthetic Fuel`, coloane precum `engine_power_hp`) a fost înlocuită de v2 și nu mai este în repo.
 
 ## Erori găsite în analiza inițială și cum au fost reparate
 
@@ -73,12 +81,12 @@ Versiunea actuală (v2) a dashboard-ului Looker Studio este `docs/Powertrain_Das
 **Verificat după reparații:** 872 rânduri (la fel ca înainte), 0 duplicate, 0 NaN în CO2/consum/tier/eco_score, `eco_score` neschimbat față de varianta veche, distribuția pe `powertrain_type` identică.
 
 ### Probleme rămase (nereparate intenționat sau în afara ETL)
-1. **PDF-urile și dashboard-urile sunt încă pe date v1** (vezi mai sus) — trebuie reconectate și regenerate. Tabela BigQuery trebuie reîncărcată cu schema nouă.
+1. ✅ ~~Dashboard-urile și tabela BigQuery pe date v1~~ — rezolvat: BigQuery reîncărcat cu schema v2, Power BI și Looker Studio reconectate.
 2. **CO2 = emisii la țeavă**: BEV = 0 prin definiție, deci `eco_score` = 100 pentru toți BEV. Nu includ producția electricității sau a bateriei; de menționat explicit în prezentare.
 3. **Query 2 (an-de-an) are valoare analitică mică**: ICE există doar în 2024; doar BEV și PHEV au mai mulți ani, cu eșantioane mici (2023: 33, 2025: 37). `co2_change_vs_prev_year` e NULL pentru aproape tot. Se poate înlocui cu o comparație pe `vehicle_class` sau pe `engine_size_l`, acum că există în schemă.
 4. **Gaz natural (`N`)** ar fi etichetat „Conventional ICE (Gasoline)" (acum 0 rânduri cu `N`, deci fără impact curent).
 5. `eco_score` depinde de `max(CO2)` din setul curent (608 g/km): scorul unui vehicul se schimbă dacă setul de date se schimbă.
-6. Căi relative și nume de fișier de output hardcodate; fără `requirements.txt`, fără validări (nr. rânduri, valori negative) și fără teste.
+6. Căi relative și nume de fișier de output hardcodate; fără validări (nr. rânduri, valori negative) și fără teste. (`requirements.txt` există acum.)
 
 ## Convenții pentru lucrul în acest proiect
 - Păstrează numele de coloane `snake_case` în engleză; orice coloană nouă trebuie propagată în ETL, în tabela BigQuery și în sursele de date din Looker Studio/Power BI.
@@ -89,8 +97,9 @@ Versiunea actuală (v2) a dashboard-ului Looker Studio este `docs/Powertrain_Das
 
 
 ## Următorii pași (prioritizați)
-1. Reîncarcă `cleaned_horse_powertrain_data_v2.csv` în BigQuery (`horse_updated.analytics`, schema nouă de 16 coloane).
-2. Verifică că sursa Looker Studio e tabela BigQuery nouă (PDF-ul din `docs/` e deja pe date v2).
+1. ✅ Făcut: `cleaned_horse_powertrain_data_v2.csv` reîncărcat în BigQuery (`horse_updated.analytics`, 16 coloane, 872 rânduri).
+2. ✅ Făcut: Looker Studio și Power BI reconectate la v2; exporturile sunt în `docs/`.
 3. Înlocuiește Query 2 cu o analiză mai informativă (pe clasă de vehicul / cilindree).
 4. Argumente CLI pentru căi, câteva teste pe schema output.
-5. Adaugă în `docs/` o captură PNG a dashboard-ului Looker Studio (pentru previzualizare pe GitHub).
+5. ✅ Făcut: linkul public Looker Studio e în secțiunea „Dashboard-uri" (de adăugat și într-un README, dacă se creează unul).
+6. Adaugă în `docs/` o captură PNG a dashboard-ului Looker Studio (pentru previzualizare pe GitHub).
