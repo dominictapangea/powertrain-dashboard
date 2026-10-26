@@ -1,0 +1,873 @@
+model_year,manufacturer,model,vehicle_class,transmission,engine_size_l,cylinders,motor_kw,fuel_type_code,fuel_type_label,combined_consumption_le_100km,co2_emissions_g_km,powertrain_type,source_dataset,eco_score,efficiency_tier
+2023,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,AM7,2.0,4.0,105.0,B/Z,Electricity + Premium Gasoline,3.9,92,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,84.9,A - Best in Class
+2023,Audi,e-tron 55 quattro,Sport utility vehicle: Standard,A1,,,300.0,B,Electricity (Battery),3.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,AS8,3.0,6.0,100.0,B/Z,Electricity + Premium Gasoline,5.0,138,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,77.3,A - Best in Class
+2023,Bmw,330e Sedan,Compact,AS8,2.0,4.0,80.0,B/Z,Electricity + Premium Gasoline,3.2,98,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,83.9,A - Best in Class
+2023,Chevrolet,Bolt EUV,Station wagon: Small,A1,,,150.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Chevrolet,Bolt EV,Station wagon: Small,A1,,,150.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Chrysler,Pacifica Hybrid,Minivan,AV,3.6,6.0,89.0,B/X,Electricity + Regular Gasoline,2.9,74,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,87.8,A - Best in Class
+2023,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,AV,2.5,4.0,62.0,B/X,Electricity + Regular Gasoline,2.3,49,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,91.9,A - Best in Class
+2023,Ford,F-150 Lightning Standard Range,Pickup truck: Standard,A1,,,318.0,B,Electricity (Battery),3.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Ford,Mustang Mach-E Standard Range,Sport utility vehicle: Small,A1,,,198.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Hyundai,IONIQ 5 Standard Range,Full-size,A1,,,125.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Hyundai,IONIQ 6 Standard Range,Mid-size,A1,,,111.0,B,Electricity (Battery),1.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Hyundai,Santa Fe Plug-in Hybrid,Sport utility vehicle: Small,AM6,1.6,4.0,67.0,B/X,Electricity + Regular Gasoline,3.1,69,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,88.7,A - Best in Class
+2023,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,A8,2.0,4.0,100.0,B/X,Electricity + Regular Gasoline,4.2,110,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,81.9,A - Best in Class
+2023,Kia,EV6 Standard Range,Station wagon: Small,A1,,,125.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Kia,Niro EV,Station wagon: Small,A1,,,150.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Kia,Niro Plug-in Hybrid,Station wagon: Small,AM6,1.6,4.0,62.0,B/X,Electricity + Regular Gasoline,2.1,42,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,93.1,A - Best in Class
+2023,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,AV6,2.5,4.0,134.0,B/Z,Electricity + Premium Gasoline,2.8,54,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,91.1,A - Best in Class
+2023,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,A9,3.0,6.0,110.0,B/Z,Electricity + Premium Gasoline,4.6,67,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,89.0,A - Best in Class
+2023,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,A1,2.4,4.0,100.0,B/X,Electricity + Regular Gasoline,3.6,70,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,88.5,A - Best in Class
+2023,Nissan,LEAF S,Mid-size,A1,,,110.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Rivian,"R1S (21"" Wheels)",Sport utility vehicle: Standard,A1,,,650.0,B,Electricity (Battery),3.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Subaru,Crosstrek Hybrid AWD,Sport utility vehicle: Small,AV,2.0,4.0,100.0,B/X,Electricity + Regular Gasoline,2.6,94,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,84.5,A - Best in Class
+2023,Subaru,Solterra AWD,Sport utility vehicle: Small,A1,,,160.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Tesla,Model 3 RWD,Mid-size,A1,,,192.0,B,Electricity (Battery),1.8,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Tesla,Model Y RWD,Sport utility vehicle: Small,A1,,,211.0,B,Electricity (Battery),1.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Toyota,Prius Prime SE,Mid-size,AV,2.0,4.0,120.0,B/X,Electricity + Regular Gasoline,1.8,31,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,94.9,A - Best in Class
+2023,Toyota,RAV4 Prime,Sport utility vehicle: Small,AV,2.5,4.0,134.0,B/X,Electricity + Regular Gasoline,2.5,44,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,92.8,A - Best in Class
+2023,Toyota,bZ4X,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Volkswagen,ID.4,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Volvo,C40 Recharge Twin,Sport utility vehicle: Small,A1,,,300.0,B,Electricity (Battery),2.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2023,Volvo,S60 T8 AWD Recharge,Compact,AS8,2.0,4.0,107.0,B/Z,Electricity + Premium Gasoline,3.0,58,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,90.5,A - Best in Class
+2023,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,AS8,2.0,4.0,107.0,B/Z,Electricity + Premium Gasoline,3.8,82,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,86.5,A - Best in Class
+2024,Acura,Integra A-SPEC,Full-size,AV7,1.5,4.0,,Z,Premium Gasoline,7.4,172,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.7,A - Best in Class
+2024,Acura,Integra A-SPEC,Full-size,M6,1.5,4.0,,Z,Premium Gasoline,7.8,181,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.2,A - Best in Class
+2024,Acura,Integra Type S,Full-size,M6,2.0,4.0,,Z,Premium Gasoline,9.9,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Acura,MDX SH-AWD,Sport utility vehicle: Small,AS10,3.5,6.0,,Z,Premium Gasoline,11.2,263,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Acura,MDX SH-AWD Type S,Sport utility vehicle: Standard,AS10,3.0,6.0,,Z,Premium Gasoline,12.4,291,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.1,C - Below Average
+2024,Acura,RDX SH-AWD,Sport utility vehicle: Small,AS10,2.0,4.0,,Z,Premium Gasoline,9.9,232,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.8,B - Above Average
+2024,Acura,RDX SH-AWD A-SPEC,Sport utility vehicle: Small,AS10,2.0,4.0,,Z,Premium Gasoline,10.3,241,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.4,B - Above Average
+2024,Acura,ZDX A-SPEC AWD,Sport utility vehicle: Standard,A1,,,375.0,B,Electricity (Battery),2.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Alfa Romeo,Giulia,Mid-size,A8,2.0,4.0,,Z,Premium Gasoline,8.7,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Alfa Romeo,Giulia AWD,Mid-size,A8,2.0,4.0,,Z,Premium Gasoline,9.2,217,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.3,B - Above Average
+2024,Alfa Romeo,Giulia Quadrifoglio,Mid-size,A8,2.9,6.0,,Z,Premium Gasoline,11.6,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Alfa Romeo,Stelvio,Sport utility vehicle: Small,A8,2.0,4.0,,Z,Premium Gasoline,9.3,218,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.1,B - Above Average
+2024,Alfa Romeo,Stelvio AWD,Sport utility vehicle: Small,A8,2.0,4.0,,Z,Premium Gasoline,9.6,226,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.8,B - Above Average
+2024,Alfa Romeo,Stelvio AWD Quadrifoglio,Sport utility vehicle: Small,A8,2.9,6.0,,Z,Premium Gasoline,12.3,288,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.6,C - Below Average
+2024,Alfa Romeo,Tonale AWD,Sport utility vehicle: Small,A9,2.0,4.0,,X,Regular Gasoline,9.8,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Alfa Romeo,Tonale PHEV,Sport utility vehicle: Small,A6,1.3,4.0,89.0,B/X,Electricity + Regular Gasoline,3.1,75,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,87.7,A - Best in Class
+2024,Aston Martin,DB12,Minicompact,A8,4.0,8.0,,Z,Premium Gasoline,13.5,316,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.0,D - High Emissions
+2024,Aston Martin,DBS V12,Minicompact,A8,5.2,12.0,,Z,Premium Gasoline,13.8,324,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.7,D - High Emissions
+2024,Aston Martin,DBX V8,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,14.6,343,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.6,D - High Emissions
+2024,Aston Martin,DBX707,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,14.0,329,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.9,D - High Emissions
+2024,Aston Martin,Valour,Two-seater,M6,5.2,12.0,,Z,Premium Gasoline,16.3,383,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),37.0,D - High Emissions
+2024,Audi,A3 40 TFSI quattro,Subcompact,AM7,2.0,4.0,,X,Regular Gasoline,8.1,191,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.6,B - Above Average
+2024,Audi,A4 45 TFSI quattro,Compact,AM7,2.0,4.0,,Z,Premium Gasoline,8.8,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Audi,A4 allroad 45 TFSI quattro,Station wagon: Small,AM7,2.0,4.0,,Z,Premium Gasoline,9.2,215,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.6,B - Above Average
+2024,Audi,A5 Cabriolet 45 TFSI quattro,Subcompact,AM7,2.0,4.0,,Z,Premium Gasoline,8.6,202,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.8,B - Above Average
+2024,Audi,A5 Coupé 45 TFSI quattro,Subcompact,AM7,2.0,4.0,,Z,Premium Gasoline,8.8,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Audi,A5 Sportback 45 TFSI quattro,Mid-size,AM7,2.0,4.0,,Z,Premium Gasoline,8.8,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Audi,A6 45 TFSI quattro,Mid-size,AM7,2.0,4.0,,Z,Premium Gasoline,9.0,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Audi,A6 55 TFSI quattro,Mid-size,AM7,3.0,6.0,,Z,Premium Gasoline,9.6,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Audi,A6 allroad 55 TFSI quattro,Station wagon: Mid-size,AM7,3.0,6.0,,Z,Premium Gasoline,9.6,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Audi,A7 Sportback 55 TFSI quattro,Mid-size,AM7,3.0,6.0,,Z,Premium Gasoline,9.6,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Audi,A8 L 55 TFSI quattro,Full-size,AS8,3.0,6.0,,Z,Premium Gasoline,10.6,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Audi,Q3 40 TFSI quattro,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,9.5,224,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.2,B - Above Average
+2024,Audi,Q3 45 TFSI quattro,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,10.2,239,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.7,B - Above Average
+2024,Audi,Q4 45 e-tron,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Audi,Q5 40 TFSI quattro,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,9.2,215,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.6,B - Above Average
+2024,Audi,Q5 45 TFSI quattro,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,9.9,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,AM7,2.0,4.0,105.0,B/Z,Electricity + Premium Gasoline,4.1,93,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,84.7,A - Best in Class
+2024,Audi,Q5 Sportback 45 TFSI quattro,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,9.9,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Audi,Q7 45 TFSI quattro,Sport utility vehicle: Standard,AS8,2.0,4.0,,Z,Premium Gasoline,11.0,258,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.6,C - Below Average
+2024,Audi,Q7 55 TFSI quattro,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,11.4,268,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.9,C - Below Average
+2024,Audi,Q8 55 TFSI quattro,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.1,285,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.1,C - Below Average
+2024,Audi,RS 5 Coupé,Subcompact,AS8,2.9,6.0,,Z,Premium Gasoline,11.3,264,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.6,C - Below Average
+2024,Audi,RS 5 Sportback,Mid-size,AS8,2.9,6.0,,Z,Premium Gasoline,11.6,272,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.3,C - Below Average
+2024,Audi,RS 6 Avant performance,Station wagon: Mid-size,AS8,4.0,8.0,,Z,Premium Gasoline,14.2,335,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.9,D - High Emissions
+2024,Audi,RS 7 Sportback performance,Mid-size,AS8,4.0,8.0,,Z,Premium Gasoline,14.2,335,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.9,D - High Emissions
+2024,Audi,RS Q8,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,15.3,357,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.3,D - High Emissions
+2024,Audi,S3 quattro,Subcompact,AM7,2.0,4.0,,Z,Premium Gasoline,8.9,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Audi,S4 quattro,Compact,AS8,3.0,6.0,,Z,Premium Gasoline,9.7,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Audi,S5 Cabriolet quattro,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,10.5,247,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Audi,S5 Coupé quattro,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,9.7,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Audi,S5 Sportback quattro,Mid-size,AS8,3.0,6.0,,Z,Premium Gasoline,10.2,238,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.9,B - Above Average
+2024,Audi,S6 quattro,Mid-size,AS8,2.9,6.0,,Z,Premium Gasoline,10.7,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Audi,S7 quattro,Mid-size,AS8,2.9,6.0,,Z,Premium Gasoline,10.7,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Audi,S8 quattro,Full-size,AS8,4.0,8.0,,Z,Premium Gasoline,13.3,312,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.7,D - High Emissions
+2024,Audi,SQ5 Sportback quattro,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,11.4,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Audi,SQ5 quattro,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,11.4,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Audi,SQ7 quattro,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Audi,SQ8 quattro,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,13.8,322,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.0,D - High Emissions
+2024,Audi,e-tron GT,Compact,A2,,,390.0,B,Electricity (Battery),2.8,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Bentley,Bentayga,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,14.6,343,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.6,D - High Emissions
+2024,Bentley,Bentayga EWB,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,14.6,343,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.6,D - High Emissions
+2024,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,AS8,3.0,6.0,100.0,B/Z,Electricity + Premium Gasoline,5.6,128,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,78.9,A - Best in Class
+2024,Bentley,Continental GT,Subcompact,AM8,4.0,8.0,,Z,Premium Gasoline,13.7,322,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.0,D - High Emissions
+2024,Bentley,Continental GT,Subcompact,AM8,6.0,12.0,,Z,Premium Gasoline,15.7,367,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.6,D - High Emissions
+2024,Bentley,Continental GT Convertible,Minicompact,AM8,4.0,8.0,,Z,Premium Gasoline,14.3,337,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.6,D - High Emissions
+2024,Bentley,Continental GT Convertible,Minicompact,AM8,6.0,12.0,,Z,Premium Gasoline,16.6,388,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),36.2,D - High Emissions
+2024,Bentley,Flying Spur,Mid-size,AM8,4.0,8.0,,Z,Premium Gasoline,14.2,333,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.2,D - High Emissions
+2024,Bentley,Flying Spur,Mid-size,AM8,6.0,12.0,,Z,Premium Gasoline,16.2,378,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),37.8,D - High Emissions
+2024,Bmw,230i xDrive Coupe,Subcompact,AS8,2.0,4.0,,Z,Premium Gasoline,8.4,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Bmw,330e Sedan,Compact,AS8,2.0,4.0,80.0,B/Z,Electricity + Premium Gasoline,3.2,98,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,83.9,A - Best in Class
+2024,Bmw,330i xDrive Sedan,Compact,AS8,2.0,4.0,,Z,Premium Gasoline,8.6,200,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.1,B - Above Average
+2024,Bmw,430i xDrive Cabriolet,Subcompact,AS8,2.0,4.0,,Z,Premium Gasoline,8.7,203,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.6,B - Above Average
+2024,Bmw,430i xDrive Coupe,Subcompact,AS8,2.0,4.0,,Z,Premium Gasoline,8.7,203,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.6,B - Above Average
+2024,Bmw,530i xDrive Sedan,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,7.9,182,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.1,A - Best in Class
+2024,Bmw,750e xDrive Sedan,Full-size,AS8,3.0,6.0,145.0,B/Z,Electricity + Premium Gasoline,3.6,82,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,86.5,A - Best in Class
+2024,Bmw,760i xDrive Sedan,Full-size,AS8,4.4,8.0,,Z,Premium Gasoline,11.5,265,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.4,C - Below Average
+2024,Bmw,ALPINA B8 Gran Coupe,Mid-size,AS8,4.4,8.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Bmw,ALPINA XB7,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,13.6,314,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.4,D - High Emissions
+2024,Bmw,M2 Coupe,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,12.7,294,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.6,D - High Emissions
+2024,Bmw,M2 Coupe,Subcompact,M6,3.0,6.0,,Z,Premium Gasoline,12.4,287,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.8,C - Below Average
+2024,Bmw,M240i xDrive Coupe,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,9.0,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Bmw,M3 CS Sedan,Compact,AS8,3.0,6.0,,Z,Premium Gasoline,13.2,305,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.8,D - High Emissions
+2024,Bmw,M3 Competition M xDrive Sedan,Compact,AS8,3.0,6.0,,Z,Premium Gasoline,12.7,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Bmw,M3 Sedan,Compact,M6,3.0,6.0,,Z,Premium Gasoline,12.6,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Bmw,M340i xDrive Sedan,Compact,AS8,3.0,6.0,,Z,Premium Gasoline,9.1,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Bmw,M4 Competition M xDrive Cabriolet,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,12.9,301,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.5,D - High Emissions
+2024,Bmw,M4 Competition M xDrive Coupe,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,12.7,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Bmw,M4 Coupe,Subcompact,M6,3.0,6.0,,Z,Premium Gasoline,12.6,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Bmw,M440i xDrive Cabriolet,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,9.1,211,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.3,B - Above Average
+2024,Bmw,M440i xDrive Coupe,Subcompact,AS8,3.0,6.0,,Z,Premium Gasoline,9.3,216,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.5,B - Above Average
+2024,Bmw,M8 Competition Cabriolet,Subcompact,AS8,4.4,8.0,,Z,Premium Gasoline,13.7,321,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.2,D - High Emissions
+2024,Bmw,M8 Competition Coupe,Subcompact,AS8,4.4,8.0,,Z,Premium Gasoline,13.7,321,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.2,D - High Emissions
+2024,Bmw,M8 Competition Gran Coupe,Mid-size,AS8,4.4,8.0,,Z,Premium Gasoline,13.7,321,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.2,D - High Emissions
+2024,Bmw,M850i xDrive Cabriolet,Subcompact,AS8,4.4,8.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Bmw,M850i xDrive Coupe,Subcompact,AS8,4.4,8.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Bmw,M850i xDrive Gran Coupe,Mid-size,AS8,4.4,8.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Bmw,X1 M35i xDrive,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,9.0,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Bmw,X1 xDrive28i,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,8.4,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Bmw,X2 M35i xDrive,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,8.9,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Bmw,X2 xDrive28i,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,8.5,198,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.4,B - Above Average
+2024,Bmw,X3 M,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,13.9,323,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.9,D - High Emissions
+2024,Bmw,X3 M Competition,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,13.9,323,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.9,D - High Emissions
+2024,Bmw,X3 M40i,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,10.1,235,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.3,B - Above Average
+2024,Bmw,X3 xDrive30i,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,9.9,229,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.3,B - Above Average
+2024,Bmw,X4 M,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,13.9,323,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.9,D - High Emissions
+2024,Bmw,X4 M Competition,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,13.9,323,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.9,D - High Emissions
+2024,Bmw,X4 M40i,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,10.1,235,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.3,B - Above Average
+2024,Bmw,X4 xDrive30i,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,9.9,229,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.3,B - Above Average
+2024,Bmw,X5 M Competition,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,15.8,366,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.8,D - High Emissions
+2024,Bmw,X5 M60i,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,12.3,285,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.1,C - Below Average
+2024,Bmw,X5 xDrive40i,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,9.4,218,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.1,B - Above Average
+2024,Bmw,X5 xDrive50e,Sport utility vehicle: Standard,AS8,3.0,6.0,145.0,B/Z,Electricity + Premium Gasoline,4.0,81,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,86.7,A - Best in Class
+2024,Bmw,X6 M Competition,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,15.8,366,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.8,D - High Emissions
+2024,Bmw,X6 M60i,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,12.3,285,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.1,C - Below Average
+2024,Bmw,X6 xDrive40i,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,9.6,223,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.3,B - Above Average
+2024,Bmw,X7 M60i,Sport utility vehicle: Standard,AS8,4.4,8.0,,Z,Premium Gasoline,12.9,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Bmw,X7 xDrive40i,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,10.5,243,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.0,C - Below Average
+2024,Bmw,Z4 M40i,Two-seater,AS8,3.0,6.0,,Z,Premium Gasoline,9.1,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Bmw,Z4 sDrive30i,Two-seater,AS8,2.0,4.0,,Z,Premium Gasoline,8.4,194,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.1,B - Above Average
+2024,Bmw,"i4 eDrive40 Gran Coupe (18"" Wheels)",Subcompact,A1,,,250.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Bugatti,Chiron Super Sport,Two-seater,AM7,8.0,16.0,,Z,Premium Gasoline,26.1,608,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),0.0,D - High Emissions
+2024,Buick,Enclave AWD,Sport utility vehicle: Standard,A9,3.6,6.0,,X,Regular Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Buick,Encore GX,Sport utility vehicle: Small,AV,1.3,3.0,,X,Regular Gasoline,7.8,183,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.9,A - Best in Class
+2024,Buick,Encore GX AWD,Sport utility vehicle: Small,A9,1.3,3.0,,X,Regular Gasoline,8.8,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Buick,Envista,Station wagon: Small,A6,1.2,3.0,,X,Regular Gasoline,7.9,185,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.6,B - Above Average
+2024,Cadillac,CT4,Compact,AS10,2.7,4.0,,Z,Premium Gasoline,9.5,221,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.7,B - Above Average
+2024,Cadillac,CT4,Compact,AS8,2.0,4.0,,Z,Premium Gasoline,9.1,214,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.8,B - Above Average
+2024,Cadillac,CT4 AWD,Compact,AS10,2.7,4.0,,Z,Premium Gasoline,9.9,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Cadillac,CT4 AWD,Compact,AS8,2.0,4.0,,Z,Premium Gasoline,9.5,223,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.3,B - Above Average
+2024,Cadillac,CT4-V,Compact,AS10,2.7,4.0,,Z,Premium Gasoline,10.2,236,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.2,B - Above Average
+2024,Cadillac,CT4-V,Compact,AS10,3.6,6.0,,Z,Premium Gasoline,12.6,297,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.2,D - High Emissions
+2024,Cadillac,CT4-V,Compact,M6,3.6,6.0,,Z,Premium Gasoline,13.0,303,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.2,D - High Emissions
+2024,Cadillac,CT4-V AWD,Compact,AS10,2.7,4.0,,Z,Premium Gasoline,10.4,244,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.9,C - Below Average
+2024,Cadillac,CT5,Mid-size,AS10,2.0,4.0,,Z,Premium Gasoline,8.8,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Cadillac,CT5,Mid-size,AS10,3.0,6.0,,Z,Premium Gasoline,10.8,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Cadillac,CT5 AWD,Mid-size,AS10,2.0,4.0,,Z,Premium Gasoline,9.5,224,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.2,B - Above Average
+2024,Cadillac,CT5 AWD,Mid-size,AS10,3.0,6.0,,Z,Premium Gasoline,11.3,265,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.4,C - Below Average
+2024,Cadillac,CT5-V,Mid-size,AS10,3.0,6.0,,Z,Premium Gasoline,11.2,263,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Cadillac,CT5-V,Mid-size,AS10,6.2,8.0,,Z,Premium Gasoline,14.8,347,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.9,D - High Emissions
+2024,Cadillac,CT5-V,Mid-size,M6,6.2,8.0,,Z,Premium Gasoline,15.3,358,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.1,D - High Emissions
+2024,Cadillac,CT5-V AWD,Mid-size,AS10,3.0,6.0,,Z,Premium Gasoline,11.3,265,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.4,C - Below Average
+2024,Cadillac,Escalade 4WD,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.5,281,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Cadillac,Escalade 4WD,Sport utility vehicle: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.0,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Cadillac,Escalade-V AWD,Sport utility vehicle: Standard,AS10,6.2,8.0,,Z,Premium Gasoline,18.1,425,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),30.1,D - High Emissions
+2024,Cadillac,LYRIQ (11.5 kW Charger),Sport utility vehicle: Small,A1,,,255.0,B,Electricity (Battery),2.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Cadillac,XT4,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,9.1,214,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.8,B - Above Average
+2024,Cadillac,XT4 AWD,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,9.5,224,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.2,B - Above Average
+2024,Cadillac,XT5,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,9.7,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Cadillac,XT5 AWD,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,10.1,237,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.0,B - Above Average
+2024,Cadillac,XT5 AWD,Sport utility vehicle: Small,AS9,3.6,6.0,,X,Regular Gasoline,11.2,264,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.6,C - Below Average
+2024,Cadillac,XT6 AWD,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,10.2,239,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.7,B - Above Average
+2024,Cadillac,XT6 AWD,Sport utility vehicle: Small,AS9,3.6,6.0,,X,Regular Gasoline,11.5,269,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.8,C - Below Average
+2024,Chevrolet,Blazer AWD,Sport utility vehicle: Small,A9,2.0,4.0,,X,Regular Gasoline,9.9,229,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.3,B - Above Average
+2024,Chevrolet,Blazer AWD,Sport utility vehicle: Small,A9,3.6,6.0,,X,Regular Gasoline,11.2,262,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.9,C - Below Average
+2024,Chevrolet,Blazer EV RS,Sport utility vehicle: Small,A1,,,255.0,B,Electricity (Battery),2.6,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Chevrolet,Camaro,Subcompact,AS10,3.6,6.0,,X,Regular Gasoline,10.7,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Chevrolet,Camaro,Subcompact,M6,3.6,6.0,,X,Regular Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Chevrolet,Camaro SS,Subcompact,AS10,6.2,8.0,,Z,Premium Gasoline,12.0,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Chevrolet,Camaro SS,Subcompact,M6,6.2,8.0,,Z,Premium Gasoline,12.6,297,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.2,D - High Emissions
+2024,Chevrolet,Camaro ZL1,Subcompact,AS10,6.2,8.0,,Z,Premium Gasoline,15.1,355,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.6,D - High Emissions
+2024,Chevrolet,Camaro ZL1,Subcompact,M6,6.2,8.0,,Z,Premium Gasoline,14.9,349,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.6,D - High Emissions
+2024,Chevrolet,Colorado,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,10.9,256,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.9,C - Below Average
+2024,Chevrolet,Colorado (Turbo Plus),Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,11.1,261,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.1,C - Below Average
+2024,Chevrolet,Colorado 4WD,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,11.8,278,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.3,C - Below Average
+2024,Chevrolet,Colorado 4WD (Turbo Plus),Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,11.8,277,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.4,C - Below Average
+2024,Chevrolet,Colorado 4WD Mud Terrain Tire (Turbo Plus),Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,13.1,307,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.5,D - High Emissions
+2024,Chevrolet,Colorado ZR2 4WD (Turbo Plus),Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,14.0,328,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.1,D - High Emissions
+2024,Chevrolet,Colorado ZR2 Bison 4WD (Turbo Plus),Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,14.9,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Chevrolet,Corvette,Two-seater,AS8,6.2,8.0,,Z,Premium Gasoline,12.5,295,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.5,D - High Emissions
+2024,Chevrolet,Corvette E-Ray,Two-seater,AS8,6.2,8.0,,Z,Premium Gasoline,12.7,298,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.0,D - High Emissions
+2024,Chevrolet,Corvette Z06,Two-seater,AS8,5.5,8.0,,Z,Premium Gasoline,15.8,371,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.0,D - High Emissions
+2024,Chevrolet,Corvette Z06 Carbon Aero,Two-seater,AS8,5.5,8.0,,Z,Premium Gasoline,16.7,392,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),35.5,D - High Emissions
+2024,Chevrolet,Equinox,Sport utility vehicle: Small,A6,1.5,4.0,,X,Regular Gasoline,8.5,193,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.3,B - Above Average
+2024,Chevrolet,Equinox AWD,Sport utility vehicle: Small,A6,1.5,4.0,,X,Regular Gasoline,8.9,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Chevrolet,Equinox EV,Sport utility vehicle: Small,A1,,,180.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Chevrolet,Malibu,Mid-size,AV,1.5,4.0,,X,Regular Gasoline,7.7,178,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.7,A - Best in Class
+2024,Chevrolet,Silverado,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,9.2,247,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Chevrolet,Silverado,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.2,309,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.2,D - High Emissions
+2024,Chevrolet,Silverado,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.0,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Chevrolet,Silverado (With Sport Mode),Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.5,292,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.0,D - High Emissions
+2024,Chevrolet,Silverado 4WD,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,10.4,280,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Chevrolet,Silverado 4WD,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.2,332,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.4,D - High Emissions
+2024,Chevrolet,Silverado 4WD,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,13.9,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Chevrolet,Silverado 4WD,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.3,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Chevrolet,Silverado 4WD (With Sport Mode),Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,9.6,259,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),57.4,C - Below Average
+2024,Chevrolet,Silverado 4WD (With Sport Mode),Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,13.4,314,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.4,D - High Emissions
+2024,Chevrolet,Silverado 4WD FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Chevrolet,Silverado 4WD FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),19.2,318,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),47.7,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,10.9,293,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.6,342,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.8,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.7,367,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.6,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,14.4,337,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.6,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire (With Sport Mode),Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,14.2,332,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.4,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Chevrolet,Silverado 4WD Mud Terrain Tire FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),19.2,318,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),47.7,D - High Emissions
+2024,Chevrolet,Silverado 4WD ZR2,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,11.4,306,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),49.7,D - High Emissions
+2024,Chevrolet,Silverado 4WD ZR2,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.6,367,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.6,D - High Emissions
+2024,Chevrolet,Silverado EV 3WT,Pickup truck: Standard,A1,,,381.0,B,Electricity (Battery),3.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Chevrolet,Silverado FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.1,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Chevrolet,Silverado FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),17.7,293,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Chevrolet,Suburban,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.1,272,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),55.3,C - Below Average
+2024,Chevrolet,Suburban,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Chevrolet,Suburban 4WD,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.5,281,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Chevrolet,Suburban 4WD,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.8,346,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.1,D - High Emissions
+2024,Chevrolet,Suburban 4WD,Sport utility vehicle: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.0,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Chevrolet,Tahoe,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,9.8,263,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Chevrolet,Tahoe,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Chevrolet,Tahoe 4WD,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.5,281,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Chevrolet,Tahoe 4WD,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Chevrolet,Tahoe 4WD,Sport utility vehicle: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.0,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Chevrolet,Trailblazer,Sport utility vehicle: Small,AV,1.2,3.0,,X,Regular Gasoline,7.8,183,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.9,A - Best in Class
+2024,Chevrolet,Trailblazer,Sport utility vehicle: Small,AV,1.3,3.0,,X,Regular Gasoline,7.7,181,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.2,A - Best in Class
+2024,Chevrolet,Trailblazer AWD,Sport utility vehicle: Small,A9,1.3,3.0,,X,Regular Gasoline,8.6,204,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.4,B - Above Average
+2024,Chevrolet,Traverse Limited AWD,Sport utility vehicle: Standard,A9,3.6,6.0,,X,Regular Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Chevrolet,Trax,Station wagon: Small,A6,1.2,3.0,,X,Regular Gasoline,7.9,185,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.6,B - Above Average
+2024,Chrysler,Grand Caravan,Minivan,A9,3.6,6.0,,X,Regular Gasoline,10.6,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Chrysler,Pacifica,Minivan,A9,3.6,6.0,,X,Regular Gasoline,10.6,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Chrysler,Pacifica AWD,Minivan,A9,3.6,6.0,,X,Regular Gasoline,12.0,279,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.1,C - Below Average
+2024,Chrysler,Pacifica Hybrid,Minivan,AV,3.6,6.0,89.0,B/X,Electricity + Regular Gasoline,2.9,74,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,87.8,A - Best in Class
+2024,Dodge,Durango AWD,Sport utility vehicle: Standard,A8,3.6,6.0,,X,Regular Gasoline,11.3,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Dodge,Durango AWD,Sport utility vehicle: Standard,A8,5.7,8.0,,X,Regular Gasoline,14.1,331,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.6,D - High Emissions
+2024,Dodge,Durango AWD SRT,Sport utility vehicle: Standard,A8,6.4,8.0,,Z,Premium Gasoline,15.6,363,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),40.3,D - High Emissions
+2024,Dodge,Durango AWD SRT Hellcat,Sport utility vehicle: Standard,A8,6.2,8.0,,Z,Premium Gasoline,17.4,410,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),32.6,D - High Emissions
+2024,Dodge,Hornet AWD,Sport utility vehicle: Small,A9,2.0,4.0,,X,Regular Gasoline,9.9,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Dodge,Hornet R/T PHEV,Sport utility vehicle: Small,A6,1.3,4.0,89.0,B/X,Electricity + Regular Gasoline,3.1,75,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,87.7,A - Best in Class
+2024,Ferrari,296 GTB,Two-seater,AM8,2.9,6.0,137.0,B/Z,Electricity + Premium Gasoline,5.0,247,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,59.4,C - Below Average
+2024,Ferrari,812 Competizione,Two-seater,AM7,6.5,12.0,,Z,Premium Gasoline,17.4,405,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),33.4,D - High Emissions
+2024,Ferrari,812 Competizione A,Two-seater,AM7,6.5,12.0,,Z,Premium Gasoline,17.3,402,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),33.9,D - High Emissions
+2024,Ferrari,Daytona SP3,Two-seater,AM7,6.5,12.0,,Z,Premium Gasoline,17.6,410,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),32.6,D - High Emissions
+2024,Ferrari,Purosangue,Sport utility vehicle: Standard,AM8,6.5,12.0,,Z,Premium Gasoline,19.0,442,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),27.3,D - High Emissions
+2024,Ferrari,Roma,Subcompact,AM8,3.9,8.0,,Z,Premium Gasoline,12.6,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Ferrari,Roma Spider,Minicompact,AM8,3.9,8.0,,Z,Premium Gasoline,12.4,290,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.3,C - Below Average
+2024,Fiat,500e,Minicompact,A1,,,87.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Ford,Bronco 4WD,Sport utility vehicle: Small,AS10,2.3,4.0,,X,Regular Gasoline,11.6,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Ford,Bronco 4WD,Sport utility vehicle: Small,AS10,2.7,6.0,,X,Regular Gasoline,11.9,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Ford,Bronco 4WD,Sport utility vehicle: Small,M7,2.3,4.0,,X,Regular Gasoline,11.6,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Ford,Bronco Badlands 4WD,Sport utility vehicle: Small,AS10,2.7,6.0,,X,Regular Gasoline,13.8,324,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.7,D - High Emissions
+2024,Ford,Bronco Badlands 4WD,Sport utility vehicle: Small,M7,2.3,4.0,,X,Regular Gasoline,14.0,329,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.9,D - High Emissions
+2024,Ford,Bronco Black Diamond 4WD,Sport utility vehicle: Small,AS10,2.3,4.0,,X,Regular Gasoline,13.1,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Ford,Bronco Black Diamond 4WD,Sport utility vehicle: Small,AS10,2.7,6.0,,X,Regular Gasoline,13.1,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Ford,Bronco Black Diamond 4WD,Sport utility vehicle: Small,M7,2.3,4.0,,X,Regular Gasoline,14.0,328,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.1,D - High Emissions
+2024,Ford,Bronco Raptor 4WD,Sport utility vehicle: Standard,AS10,3.0,6.0,,X,Regular Gasoline,15.3,358,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.1,D - High Emissions
+2024,Ford,Bronco Sasquatch 4WD,Sport utility vehicle: Small,AS10,2.3,4.0,,X,Regular Gasoline,13.4,315,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.2,D - High Emissions
+2024,Ford,Bronco Sasquatch 4WD,Sport utility vehicle: Small,AS10,2.7,6.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Ford,Bronco Sasquatch 4WD,Sport utility vehicle: Small,M7,2.3,4.0,,X,Regular Gasoline,14.0,328,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.1,D - High Emissions
+2024,Ford,Bronco Sport 4WD,Sport utility vehicle: Small,A8,1.5,3.0,,X,Regular Gasoline,9.0,211,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.3,B - Above Average
+2024,Ford,Bronco Sport 4WD,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,10.2,240,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.5,B - Above Average
+2024,Ford,Edge AWD,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,10.0,236,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.2,B - Above Average
+2024,Ford,Edge AWD,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,10.1,238,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.9,B - Above Average
+2024,Ford,Edge AWD,Sport utility vehicle: Small,AS8,2.7,6.0,,X,Regular Gasoline,11.1,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Ford,Escape,Sport utility vehicle: Small,A8,1.5,3.0,,X,Regular Gasoline,8.0,187,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.2,B - Above Average
+2024,Ford,Escape AWD,Sport utility vehicle: Small,A8,1.5,3.0,,X,Regular Gasoline,8.4,197,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.6,B - Above Average
+2024,Ford,Escape AWD,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,9.1,213,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.0,B - Above Average
+2024,Ford,Escape Hybrid,Sport utility vehicle: Small,AV,2.5,4.0,,X,Regular Gasoline,6.0,140,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),77.0,A - Best in Class
+2024,Ford,Escape Hybrid AWD,Sport utility vehicle: Small,AV,2.5,4.0,,X,Regular Gasoline,6.0,140,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),77.0,A - Best in Class
+2024,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,AV,2.5,4.0,62.0,B/X,Electricity + Regular Gasoline,2.3,49,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,91.9,A - Best in Class
+2024,Ford,Expedition 4X4,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,12.9,304,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.0,D - High Emissions
+2024,Ford,Expedition Timberline 4X4,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,13.5,318,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.7,D - High Emissions
+2024,Ford,Explorer AWD,Sport utility vehicle: Standard,A10,2.3,4.0,,X,Regular Gasoline,10.3,241,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.4,B - Above Average
+2024,Ford,Explorer AWD,Sport utility vehicle: Standard,A10,3.0,6.0,,X,Regular Gasoline,11.7,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Ford,Explorer AWD,Sport utility vehicle: Standard,AS10,3.0,6.0,,X,Regular Gasoline,11.8,277,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.4,C - Below Average
+2024,Ford,Explorer Timberline AWD,Sport utility vehicle: Standard,AS10,2.3,4.0,,X,Regular Gasoline,11.5,269,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.8,C - Below Average
+2024,Ford,F-150,Pickup truck: Standard,AS10,2.7,6.0,,X,Regular Gasoline,11.3,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Ford,F-150,Pickup truck: Standard,AS10,3.5,6.0,,X,Regular Gasoline,12.0,282,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.6,C - Below Average
+2024,Ford,F-150,Pickup truck: Standard,AS10,5.0,8.0,,X,Regular Gasoline,12.5,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Ford,F-150 4X4,Pickup truck: Standard,AS10,2.7,6.0,,X,Regular Gasoline,11.8,278,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.3,C - Below Average
+2024,Ford,F-150 4X4,Pickup truck: Standard,AS10,3.5,6.0,,X,Regular Gasoline,12.3,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Ford,F-150 4X4,Pickup truck: Standard,AS10,5.0,8.0,,X,Regular Gasoline,12.8,300,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.7,D - High Emissions
+2024,Ford,F-150 Hybrid 4X4,Pickup truck: Standard,AS10,3.5,6.0,,X,Regular Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Ford,F-150 Lightning Standard Range,Pickup truck: Standard,A1,,,318.0,B,Electricity (Battery),3.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Ford,F-150 Raptor 4X4,Pickup truck: Standard,AS10,3.5,6.0,,X,Regular Gasoline,15.0,353,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.9,D - High Emissions
+2024,Ford,F-150 Raptor R 4X4,Pickup truck: Standard,AS10,5.2,8.0,,X,Regular Gasoline,19.7,460,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),24.3,D - High Emissions
+2024,Ford,F-150 Tremor 4X4,Pickup truck: Standard,AS10,3.5,6.0,,X,Regular Gasoline,12.9,303,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.2,D - High Emissions
+2024,Ford,F-150 Tremor 4X4,Pickup truck: Standard,AS10,5.0,8.0,,X,Regular Gasoline,13.7,322,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.0,D - High Emissions
+2024,Ford,Maverick AWD,Pickup truck: Small,A8,2.0,4.0,,X,Regular Gasoline,9.6,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Ford,Maverick Hybrid,Pickup truck: Small,AV,2.5,4.0,,X,Regular Gasoline,6.3,147,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),75.8,A - Best in Class
+2024,Ford,Maverick Tremor AWD,Pickup truck: Small,A8,2.0,4.0,,X,Regular Gasoline,11.0,257,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.7,C - Below Average
+2024,Ford,Mustang,Subcompact,A10,2.3,4.0,,X,Regular Gasoline,9.2,214,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.8,B - Above Average
+2024,Ford,Mustang,Subcompact,AS10,5.0,8.0,,X,Regular Gasoline,13.1,307,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.5,D - High Emissions
+2024,Ford,Mustang,Subcompact,M6,5.0,8.0,,X,Regular Gasoline,13.8,321,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.2,D - High Emissions
+2024,Ford,Mustang (Performance Pack),Subcompact,AS10,2.3,4.0,,X,Regular Gasoline,9.8,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Ford,Mustang (Stop-Start),Subcompact,AS10,5.0,8.0,,X,Regular Gasoline,12.6,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Ford,Mustang (Stop-Start),Subcompact,M6,5.0,8.0,,X,Regular Gasoline,13.0,306,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.7,D - High Emissions
+2024,Ford,Mustang Dark Horse,Subcompact,AS10,5.0,8.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Ford,Mustang Dark Horse,Subcompact,M6,5.0,8.0,,X,Regular Gasoline,14.2,333,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.2,D - High Emissions
+2024,Ford,Mustang Mach-E Standard Range,Sport utility vehicle: Small,A1,,,197.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Ford,Ranger 4WD,Pickup truck: Standard,AS10,2.3,4.0,,X,Regular Gasoline,11.0,257,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.7,C - Below Average
+2024,Ford,Ranger 4WD,Pickup truck: Standard,AS10,2.7,6.0,,X,Regular Gasoline,11.5,270,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.6,C - Below Average
+2024,Ford,Ranger Raptor 4WD,Pickup truck: Standard,AS10,3.0,6.0,,X,Regular Gasoline,14.0,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Genesis,G70 AWD,Compact,AS8,2.5,4.0,,Z,Premium Gasoline,10.2,239,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.7,B - Above Average
+2024,Genesis,G70 AWD,Compact,AS8,3.3,6.0,,Z,Premium Gasoline,11.9,282,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.6,C - Below Average
+2024,Genesis,G80 AWD,Full-size,AS8,2.5,4.0,,Z,Premium Gasoline,9.5,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Genesis,G80 AWD,Full-size,AS8,3.5,6.0,,Z,Premium Gasoline,12.6,298,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.0,D - High Emissions
+2024,Genesis,G90,Full-size,AS8,3.5,6.0,,Z,Premium Gasoline,11.8,274,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.9,C - Below Average
+2024,Genesis,GV70 AWD,Sport utility vehicle: Small,AS8,2.5,4.0,,Z,Premium Gasoline,10.5,247,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Genesis,GV70 AWD,Sport utility vehicle: Small,AS8,3.5,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Genesis,GV80 AWD,Sport utility vehicle: Standard,AS8,2.5,4.0,,Z,Premium Gasoline,10.5,248,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.2,C - Below Average
+2024,Genesis,GV80 AWD,Sport utility vehicle: Standard,AS8,3.5,6.0,,Z,Premium Gasoline,11.8,279,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.1,C - Below Average
+2024,Gmc,Canyon,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,11.5,270,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.6,C - Below Average
+2024,Gmc,Canyon 4WD,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,12.2,286,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.0,C - Below Average
+2024,Gmc,Canyon 4WD Mud Terrain Tire,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,13.1,307,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.5,D - High Emissions
+2024,Gmc,Canyon AT4X 4WD,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,14.0,328,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.1,D - High Emissions
+2024,Gmc,Canyon AT4X AEV 4WD,Pickup truck: Small,A8,2.7,4.0,,X,Regular Gasoline,14.9,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Gmc,HUMMER EV2X Pickup,Pickup truck: Standard,A1,,,428.0,B,Electricity (Battery),4.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Gmc,Sierra,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,9.2,248,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),59.2,C - Below Average
+2024,Gmc,Sierra,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.4,314,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.4,D - High Emissions
+2024,Gmc,Sierra,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.0,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Gmc,Sierra (With Sport Mode),Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.5,292,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.0,D - High Emissions
+2024,Gmc,Sierra 4WD,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,9.6,259,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),57.4,C - Below Average
+2024,Gmc,Sierra 4WD,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.1,331,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.6,D - High Emissions
+2024,Gmc,Sierra 4WD,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,14.3,335,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.9,D - High Emissions
+2024,Gmc,Sierra 4WD,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,12.9,302,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.3,D - High Emissions
+2024,Gmc,Sierra 4WD (With Sport Mode),Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,13.6,319,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.5,D - High Emissions
+2024,Gmc,Sierra 4WD AT4X,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,12.1,326,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Gmc,Sierra 4WD AT4X,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.9,375,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),38.3,D - High Emissions
+2024,Gmc,Sierra 4WD FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Gmc,Sierra 4WD FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),19.2,318,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),47.7,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,A10,3.0,6.0,,D,Diesel,10.9,293,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.8,346,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.1,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.7,367,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.6,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,A8,2.7,4.0,,X,Regular Gasoline,14.4,337,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.6,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.9,326,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.4,D - High Emissions
+2024,Gmc,Sierra 4WD Mud Terrain Tire FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),19.2,318,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),47.7,D - High Emissions
+2024,Gmc,Sierra FFV,Pickup truck: Standard,A10,5.3,8.0,,X,Regular Gasoline,13.1,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Gmc,Sierra FFV,Pickup truck: Standard,A10,5.3,8.0,,E,Ethanol (E85),17.7,293,Flex-Fuel (Ethanol),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Gmc,Terrain,Sport utility vehicle: Small,A9,1.5,4.0,,X,Regular Gasoline,9.0,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Gmc,Terrain AWD,Sport utility vehicle: Small,A9,1.5,4.0,,X,Regular Gasoline,9.3,219,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.0,B - Above Average
+2024,Gmc,Yukon,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.1,272,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),55.3,C - Below Average
+2024,Gmc,Yukon,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Gmc,Yukon 4WD,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.5,281,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Gmc,Yukon 4WD,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Gmc,Yukon 4WD,Sport utility vehicle: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.0,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Gmc,Yukon XL,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.1,272,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),55.3,C - Below Average
+2024,Gmc,Yukon XL,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.0,327,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.2,D - High Emissions
+2024,Gmc,Yukon XL 4WD,Sport utility vehicle: Standard,A10,3.0,6.0,,D,Diesel,10.5,281,Diesel ICE,ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Gmc,Yukon XL 4WD,Sport utility vehicle: Standard,A10,5.3,8.0,,X,Regular Gasoline,14.8,346,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.1,D - High Emissions
+2024,Gmc,Yukon XL 4WD,Sport utility vehicle: Standard,A10,6.2,8.0,,Z,Premium Gasoline,15.0,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Honda,Accord,Full-size,AV,1.5,4.0,,X,Regular Gasoline,7.3,171,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.9,A - Best in Class
+2024,Honda,Accord Hybrid Sport/Touring,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,5.3,124,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),79.6,A - Best in Class
+2024,Honda,CR-V,Sport utility vehicle: Small,AV,1.5,4.0,,X,Regular Gasoline,7.8,181,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.2,A - Best in Class
+2024,Honda,CR-V AWD,Sport utility vehicle: Small,AV,1.5,4.0,,X,Regular Gasoline,8.4,197,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.6,B - Above Average
+2024,Honda,CR-V Hybrid AWD,Sport utility vehicle: Small,AV,2.0,4.0,,X,Regular Gasoline,6.4,151,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),75.2,A - Best in Class
+2024,Honda,Civic Hatchback,Full-size,AV,2.0,4.0,,X,Regular Gasoline,7.2,167,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.5,A - Best in Class
+2024,Honda,Civic Hatchback,Full-size,AV7,1.5,4.0,,X,Regular Gasoline,7.1,166,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.7,A - Best in Class
+2024,Honda,Civic Hatchback,Full-size,M6,1.5,4.0,,X,Regular Gasoline,7.5,175,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.2,A - Best in Class
+2024,Honda,Civic Hatchback,Full-size,M6,2.0,4.0,,X,Regular Gasoline,8.0,186,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.4,B - Above Average
+2024,Honda,Civic Sedan,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,6.9,162,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.4,A - Best in Class
+2024,Honda,Civic Sedan,Mid-size,AV7,1.5,4.0,,X,Regular Gasoline,6.9,162,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.4,A - Best in Class
+2024,Honda,Civic Sedan,Mid-size,AV7,2.0,4.0,,X,Regular Gasoline,7.1,165,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.9,A - Best in Class
+2024,Honda,Civic Sedan Si,Mid-size,M6,1.5,4.0,,Z,Premium Gasoline,7.7,180,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.4,A - Best in Class
+2024,Honda,Civic Type R,Full-size,M6,2.0,4.0,,Z,Premium Gasoline,9.7,224,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.2,B - Above Average
+2024,Honda,HR-V,Station wagon: Small,AV,2.0,4.0,,X,Regular Gasoline,8.3,194,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.1,B - Above Average
+2024,Honda,HR-V AWD,Station wagon: Small,AV,2.0,4.0,,X,Regular Gasoline,8.7,203,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.6,B - Above Average
+2024,Honda,Odyssey,Minivan,AS10,3.5,6.0,,X,Regular Gasoline,10.6,248,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.2,C - Below Average
+2024,Honda,Pilot AWD,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,11.0,258,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.6,C - Below Average
+2024,Honda,Pilot AWD Touring/Elite/Black,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,11.2,262,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.9,C - Below Average
+2024,Honda,Pilot AWD TrailSport,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,11.8,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Honda,Prologue EX AWD,Sport utility vehicle: Standard,A1,,,247.0,B,Electricity (Battery),2.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Hyundai,Elantra,Mid-size,AM7,1.6,4.0,,X,Regular Gasoline,7.6,179,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.6,A - Best in Class
+2024,Hyundai,Elantra,Mid-size,AV1,2.0,4.0,,X,Regular Gasoline,6.8,160,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.7,A - Best in Class
+2024,Hyundai,Elantra (Stop/Start),Mid-size,AV1,2.0,4.0,,X,Regular Gasoline,6.5,153,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.8,A - Best in Class
+2024,Hyundai,Elantra Hybrid,Mid-size,AM6,1.6,4.0,,X,Regular Gasoline,4.7,110,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.9,A - Best in Class
+2024,Hyundai,Elantra N,Mid-size,AM8,2.0,4.0,,Z,Premium Gasoline,10.4,244,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.9,C - Below Average
+2024,Hyundai,Elantra N,Mid-size,M6,2.0,4.0,,Z,Premium Gasoline,9.7,227,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.7,B - Above Average
+2024,Hyundai,IONIQ 5 Long Range,Sport utility vehicle: Small,A1,,,168.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Hyundai,Kona,Sport utility vehicle: Small,AV1,2.0,4.0,,X,Regular Gasoline,7.6,179,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.6,A - Best in Class
+2024,Hyundai,Kona (Stop/Start),Sport utility vehicle: Small,AV1,2.0,4.0,,X,Regular Gasoline,7.5,177,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.9,A - Best in Class
+2024,Hyundai,Kona AWD,Sport utility vehicle: Small,AS8,1.6,4.0,,X,Regular Gasoline,9.1,214,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.8,B - Above Average
+2024,Hyundai,Kona AWD,Sport utility vehicle: Small,AV1,2.0,4.0,,X,Regular Gasoline,8.6,201,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.9,B - Above Average
+2024,Hyundai,Kona AWD (Stop/Start),Sport utility vehicle: Small,AV1,2.0,4.0,,X,Regular Gasoline,8.5,198,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.4,B - Above Average
+2024,Hyundai,Kona Electric Long Range,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Hyundai,Palisade AWD,Sport utility vehicle: Small,AS8,3.8,6.0,,X,Regular Gasoline,11.1,261,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.1,C - Below Average
+2024,Hyundai,Santa Cruz AWD,Pickup truck: Small,AM8,2.5,4.0,,X,Regular Gasoline,10.6,251,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.7,C - Below Average
+2024,Hyundai,Santa Fe AWD,Sport utility vehicle: Small,AM8,2.5,4.0,,X,Regular Gasoline,10.6,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Hyundai,Santa Fe AWD XRT,Sport utility vehicle: Small,AM8,2.5,4.0,,X,Regular Gasoline,10.8,254,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.2,C - Below Average
+2024,Hyundai,Sonata,Full-size,AM8,2.5,4.0,,X,Regular Gasoline,8.8,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Hyundai,Sonata,Full-size,AS8,2.5,4.0,,X,Regular Gasoline,8.2,193,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.3,B - Above Average
+2024,Hyundai,Sonata AWD,Full-size,AS8,2.5,4.0,,X,Regular Gasoline,8.6,203,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.6,B - Above Average
+2024,Hyundai,Sonata Hybrid,Full-size,AM6,2.0,4.0,,X,Regular Gasoline,5.0,117,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),80.8,A - Best in Class
+2024,Hyundai,Tucson AWD,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,9.1,213,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.0,B - Above Average
+2024,Hyundai,Tucson Hybrid,Sport utility vehicle: Small,AM6,1.6,4.0,,X,Regular Gasoline,6.4,152,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),75.0,A - Best in Class
+2024,Hyundai,Tucson Plug-in Hybrid,Sport utility vehicle: Small,AM6,1.6,4.0,67.0,B/X,Electricity + Regular Gasoline,2.9,62,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,89.8,A - Best in Class
+2024,Hyundai,Venue,Sport utility vehicle: Small,AV1,1.6,4.0,,X,Regular Gasoline,7.5,177,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.9,A - Best in Class
+2024,Infiniti,Q50 AWD,Mid-size,AS7,3.0,6.0,,Z,Premium Gasoline,10.8,254,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.2,C - Below Average
+2024,Infiniti,Q50 AWD Red Sport,Mid-size,AS7,3.0,6.0,,Z,Premium Gasoline,11.1,261,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.1,C - Below Average
+2024,Infiniti,QX50 AWD,Sport utility vehicle: Small,AV8,2.0,4.0,,Z,Premium Gasoline,9.7,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Infiniti,QX55 AWD,Sport utility vehicle: Small,AV8,2.0,4.0,,Z,Premium Gasoline,9.4,222,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.5,B - Above Average
+2024,Infiniti,QX60 AWD,Sport utility vehicle: Standard,AS9,3.5,6.0,,Z,Premium Gasoline,10.7,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Infiniti,QX80 4WD,Sport utility vehicle: Standard,AS7,5.6,8.0,,Z,Premium Gasoline,15.2,358,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.1,D - High Emissions
+2024,Jaguar,E-PACE P250,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,10.4,247,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Jaguar,F-PACE P250,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,9.9,234,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.5,B - Above Average
+2024,Jaguar,F-PACE P400,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,11.1,261,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.1,C - Below Average
+2024,Jaguar,F-PACE P550 SVR,Sport utility vehicle: Small,AS8,5.0,8.0,,Z,Premium Gasoline,13.8,322,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.0,D - High Emissions
+2024,Jaguar,F-TYPE P450 Convertible,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.1,286,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.0,C - Below Average
+2024,Jaguar,F-TYPE P450 Convertible AWD,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.7,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Jaguar,F-TYPE P450 Coupe,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.1,286,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.0,C - Below Average
+2024,Jaguar,F-TYPE P450 Coupe AWD,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.7,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Jaguar,F-TYPE P575 Convertible AWD,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.7,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Jaguar,F-TYPE P575 Coupe AWD,Two-seater,AS8,5.0,8.0,,Z,Premium Gasoline,12.7,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Jaguar,I-PACE,Sport utility vehicle: Small,A1,,,294.0,B,Electricity (Battery),2.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Jaguar,XF P250,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.1,215,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.6,B - Above Average
+2024,Jaguar,XF P300 AWD,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.8,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Jeep,Compass 4X4,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,8.8,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Jeep,Gladiator 4X4,Pickup truck: Standard,A8,3.6,6.0,,X,Regular Gasoline,12.3,290,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.3,C - Below Average
+2024,Jeep,Gladiator 4X4,Pickup truck: Standard,M6,3.6,6.0,,X,Regular Gasoline,13.2,311,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.8,D - High Emissions
+2024,Jeep,Grand Cherokee 4X4,Sport utility vehicle: Standard,A8,3.6,6.0,,X,Regular Gasoline,10.9,256,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.9,C - Below Average
+2024,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,A8,2.0,4.0,100.0,B/X,Electricity + Regular Gasoline,4.2,110,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,81.9,A - Best in Class
+2024,Jeep,Grand Cherokee L 4X4,Sport utility vehicle: Standard,A8,3.6,6.0,,X,Regular Gasoline,11.3,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Jeep,Grand Cherokee L 4X4,Sport utility vehicle: Standard,A8,5.7,8.0,,X,Regular Gasoline,14.1,331,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.6,D - High Emissions
+2024,Jeep,Grand Wagoneer 4X4,Sport utility vehicle: Standard,A8,6.4,8.0,,Z,Premium Gasoline,16.0,374,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),38.5,D - High Emissions
+2024,Jeep,Grand Wagoneer 4X4 (High Output),Sport utility vehicle: Standard,A8,3.0,6.0,,Z,Premium Gasoline,14.3,334,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.1,D - High Emissions
+2024,Jeep,Grand Wagoneer L 4X4 (High Output),Sport utility vehicle: Standard,A8,3.0,6.0,,Z,Premium Gasoline,14.3,334,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.1,D - High Emissions
+2024,Jeep,Wagoneer 4X4,Sport utility vehicle: Standard,A8,3.0,6.0,,X,Regular Gasoline,12.5,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Jeep,Wagoneer L 4X4,Sport utility vehicle: Standard,A8,3.0,6.0,,X,Regular Gasoline,12.7,297,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.2,D - High Emissions
+2024,Jeep,Wrangler 4xe,Sport utility vehicle: Small,A8,2.0,4.0,100.0,B/X,Electricity + Regular Gasoline,4.8,143,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,76.5,A - Best in Class
+2024,Jeep,Wrangler JL 4X4,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,11.5,269,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.8,C - Below Average
+2024,Jeep,Wrangler JL 4X4,Sport utility vehicle: Small,A8,3.6,6.0,,X,Regular Gasoline,11.6,272,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.3,C - Below Average
+2024,Jeep,Wrangler JL 4X4,Sport utility vehicle: Small,M6,3.6,6.0,,X,Regular Gasoline,12.2,287,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.8,C - Below Average
+2024,Jeep,Wrangler JL 4X4 Rubicon,Sport utility vehicle: Small,A8,3.6,6.0,,X,Regular Gasoline,13.3,311,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.8,D - High Emissions
+2024,Jeep,Wrangler JL Unlimited 4X4,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,11.7,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Jeep,Wrangler JL Unlimited 4X4,Sport utility vehicle: Small,A8,3.6,6.0,,X,Regular Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Jeep,Wrangler JL Unlimited 4X4,Sport utility vehicle: Small,M6,3.6,6.0,,X,Regular Gasoline,12.6,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Jeep,Wrangler JL Unlimited 4X4 392,Sport utility vehicle: Small,A8,6.4,8.0,,Z,Premium Gasoline,16.8,393,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),35.4,D - High Emissions
+2024,Jeep,Wrangler JL Unlimited 4X4 Rubicon,Sport utility vehicle: Small,A8,3.6,6.0,,X,Regular Gasoline,13.7,322,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.0,D - High Emissions
+2024,Kia,Carnival,Minivan,AS8,3.5,6.0,,X,Regular Gasoline,10.7,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Kia,EV6 Wind,Sport utility vehicle: Small,A1,,,168.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Kia,EV9 Light,Sport utility vehicle: Standard,A1,,,160.0,B,Electricity (Battery),2.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Kia,Forte,Mid-size,AM7,1.6,4.0,,X,Regular Gasoline,7.8,184,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.7,B - Above Average
+2024,Kia,Forte,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,7.2,170,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.0,A - Best in Class
+2024,Kia,Forte 5,Full-size,AM7,1.6,4.0,,X,Regular Gasoline,8.0,190,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.8,B - Above Average
+2024,Kia,Forte 5,Full-size,AV,2.0,4.0,,X,Regular Gasoline,7.7,182,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.1,A - Best in Class
+2024,Kia,K5,Full-size,AM8,2.5,4.0,,X,Regular Gasoline,8.7,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Kia,K5 AWD,Full-size,AS8,1.6,4.0,,X,Regular Gasoline,8.3,196,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.8,B - Above Average
+2024,Kia,Niro,Sport utility vehicle: Small,AM6,1.6,4.0,,X,Regular Gasoline,4.8,112,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.6,A - Best in Class
+2024,Kia,Niro EV,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Kia,Niro FE,Sport utility vehicle: Small,AM6,1.6,4.0,,X,Regular Gasoline,4.4,104,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),82.9,A - Best in Class
+2024,Kia,Niro Plug-in Hybrid,Sport utility vehicle: Small,AM6,1.6,4.0,62.0,B/X,Electricity + Regular Gasoline,2.1,42,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,93.1,A - Best in Class
+2024,Kia,Seltos,Sport utility vehicle: Small,AV8,2.0,4.0,,X,Regular Gasoline,7.6,179,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.6,A - Best in Class
+2024,Kia,Seltos AWD,Sport utility vehicle: Small,AS8,1.6,4.0,,X,Regular Gasoline,9.1,213,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.0,B - Above Average
+2024,Kia,Seltos AWD,Sport utility vehicle: Small,AV8,2.0,4.0,,X,Regular Gasoline,8.2,192,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.4,B - Above Average
+2024,Kia,Sorento Hybrid AWD,Sport utility vehicle: Small,AM6,1.6,4.0,,X,Regular Gasoline,6.8,160,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.7,A - Best in Class
+2024,Kia,Sorento Plug-in Hybrid,Sport utility vehicle: Small,AM6,1.6,4.0,67.0,B/X,Electricity + Regular Gasoline,3.0,65,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,89.3,A - Best in Class
+2024,Kia,Soul,Station wagon: Small,AV,2.0,4.0,,X,Regular Gasoline,7.8,186,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.4,B - Above Average
+2024,Kia,Sportage,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,8.3,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Kia,Sportage AWD,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,9.5,222,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.5,B - Above Average
+2024,Kia,Sportage Hybrid AWD,Sport utility vehicle: Small,AM6,1.6,4.0,,X,Regular Gasoline,6.2,145,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),76.2,A - Best in Class
+2024,Kia,Telluride AWD,Sport utility vehicle: Small,AS8,3.8,6.0,,X,Regular Gasoline,11.7,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Lamborghini,Huracán EVO Spyder,Two-seater,AM7,5.2,10.0,,Z,Premium Gasoline,16.1,375,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),38.3,D - High Emissions
+2024,Lamborghini,Huracán STO,Two-seater,AM7,5.2,10.0,,Z,Premium Gasoline,15.9,370,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.1,D - High Emissions
+2024,Lamborghini,Huracán Sterrato,Two-seater,AM7,5.2,10.0,,Z,Premium Gasoline,16.1,375,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),38.3,D - High Emissions
+2024,Lamborghini,Huracán Tecnica,Two-seater,AM7,5.2,10.0,,Z,Premium Gasoline,15.9,370,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),39.1,D - High Emissions
+2024,Lamborghini,Revuelto,Two-seater,AM8,6.5,12.0,110.0,B/Z,Electricity + Premium Gasoline,10.4,472,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,22.4,D - High Emissions
+2024,Lamborghini,Urus Performante,Mid-size,AS8,4.0,8.0,,Z,Premium Gasoline,14.8,345,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.3,D - High Emissions
+2024,Lamborghini,Urus S,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,14.8,345,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.3,D - High Emissions
+2024,Land Rover,Defender 110 P300,Sport utility vehicle: Standard,AS8,2.0,4.0,,Z,Premium Gasoline,12.6,294,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.6,D - High Emissions
+2024,Land Rover,Defender 110 P400,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.8,301,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.5,D - High Emissions
+2024,Land Rover,Defender 110 V8 P500/P525,Sport utility vehicle: Standard,AS8,5.0,8.0,,Z,Premium Gasoline,14.7,350,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.4,D - High Emissions
+2024,Land Rover,Defender 130 Outbound,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,14.0,329,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.9,D - High Emissions
+2024,Land Rover,Defender 130 P300,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.9,304,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.0,D - High Emissions
+2024,Land Rover,Defender 130 P400,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,13.0,305,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.8,D - High Emissions
+2024,Land Rover,Defender 90 P300,Sport utility vehicle: Standard,AS8,2.0,4.0,,Z,Premium Gasoline,12.3,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Land Rover,Defender 90 P400,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.0,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Land Rover,Defender 90 V8,Sport utility vehicle: Standard,AS8,5.0,8.0,,Z,Premium Gasoline,14.3,339,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.2,D - High Emissions
+2024,Land Rover,Discovery P300,Sport utility vehicle: Standard,AS8,2.0,4.0,,Z,Premium Gasoline,11.1,262,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.9,C - Below Average
+2024,Land Rover,Discovery Sport P250,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,11.5,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Land Rover,Range Rover Evoque P250,Sport utility vehicle: Small,AS9,2.0,4.0,,Z,Premium Gasoline,10.5,247,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Land Rover,Range Rover Velar P250,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,10.0,237,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.0,B - Above Average
+2024,Land Rover,Range Rover Velar P340,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,10.7,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Land Rover,Range Rover Velar P400,Sport utility vehicle: Small,AS8,3.0,6.0,,Z,Premium Gasoline,11.1,261,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.1,C - Below Average
+2024,Lexus,ES 250 AWD,Mid-size,AS8,2.5,4.0,,X,Regular Gasoline,8.4,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Lexus,ES 300h,Mid-size,AV6,2.5,4.0,,X,Regular Gasoline,5.3,124,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),79.6,A - Best in Class
+2024,Lexus,ES 350,Mid-size,AS8,3.5,6.0,,X,Regular Gasoline,9.2,214,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.8,B - Above Average
+2024,Lexus,ES 350 F SPORT,Mid-size,AS8,3.5,6.0,,X,Regular Gasoline,9.4,219,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.0,B - Above Average
+2024,Lexus,GX 550,Sport utility vehicle: Standard,AS10,3.4,6.0,,Z,Premium Gasoline,13.5,313,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),48.5,D - High Emissions
+2024,Lexus,IS 300 AWD,Compact,AS6,3.5,6.0,,Z,Premium Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Lexus,IS 350 AWD,Compact,AS6,3.5,6.0,,Z,Premium Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Lexus,IS 500,Compact,AS8,5.0,8.0,,Z,Premium Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Lexus,LC 500,Subcompact,AS10,5.0,8.0,,Z,Premium Gasoline,12.7,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Lexus,LC 500 Convertible,Minicompact,AS10,5.0,8.0,,Z,Premium Gasoline,13.0,304,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.0,D - High Emissions
+2024,Lexus,LC 500h,Subcompact,AV10,3.5,6.0,,Z,Premium Gasoline,8.1,189,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.9,B - Above Average
+2024,Lexus,LS 500 AWD,Mid-size,AS10,3.4,6.0,,Z,Premium Gasoline,11.2,270,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.6,C - Below Average
+2024,Lexus,LS 500h AWD,Mid-size,AV10,3.5,6.0,,Z,Premium Gasoline,9.2,217,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.3,B - Above Average
+2024,Lexus,LX 600,Sport utility vehicle: Standard,AS10,3.4,6.0,,Z,Premium Gasoline,12.7,298,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.0,D - High Emissions
+2024,Lexus,NX 250 AWD,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,8.4,198,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.4,B - Above Average
+2024,Lexus,NX 350 AWD,Sport utility vehicle: Small,AS8,2.4,4.0,,Z,Premium Gasoline,9.8,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Lexus,NX 350 AWD F SPORT,Sport utility vehicle: Small,AS8,2.4,4.0,,Z,Premium Gasoline,9.7,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Lexus,NX 350h AWD,Sport utility vehicle: Small,AV6,2.5,4.0,,Z,Premium Gasoline,6.0,140,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),77.0,A - Best in Class
+2024,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,AV6,2.5,4.0,134.0,B/Z,Electricity + Premium Gasoline,2.8,54,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,91.1,A - Best in Class
+2024,Lexus,RC 300 AWD,Subcompact,AS6,3.5,6.0,,Z,Premium Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Lexus,RC 350 AWD,Subcompact,AS6,3.5,6.0,,Z,Premium Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Lexus,RC F,Subcompact,AS8,5.0,8.0,,Z,Premium Gasoline,12.2,285,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.1,C - Below Average
+2024,Lexus,RX 350 AWD,Sport utility vehicle: Small,AS8,2.4,4.0,,Z,Premium Gasoline,9.9,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Lexus,RX 350h AWD,Sport utility vehicle: Small,AV6,2.5,4.0,,Z,Premium Gasoline,6.5,151,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),75.2,A - Best in Class
+2024,Lexus,RX 450h+ AWD,Sport utility vehicle: Small,AV6,2.5,4.0,134.0,B/Z,Electricity + Premium Gasoline,2.8,55,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,91.0,A - Best in Class
+2024,Lexus,RX 500h AWD,Sport utility vehicle: Small,AS6,2.4,4.0,,Z,Premium Gasoline,8.6,199,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.3,B - Above Average
+2024,Lexus,TX 350 AWD,Sport utility vehicle: Standard,AS8,2.4,4.0,,Z,Premium Gasoline,10.3,241,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.4,B - Above Average
+2024,Lexus,TX 500h AWD,Sport utility vehicle: Standard,AS6,2.4,4.0,,Z,Premium Gasoline,8.6,200,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.1,B - Above Average
+2024,Lexus,UX 250h AWD,Compact,AV6,2.0,4.0,,X,Regular Gasoline,6.0,140,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),77.0,A - Best in Class
+2024,Lincoln,Aviator AWD,Sport utility vehicle: Standard,AS10,3.0,6.0,,X,Regular Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Lincoln,Corsair AWD,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,9.9,232,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.8,B - Above Average
+2024,Lincoln,Nautilus AWD,Sport utility vehicle: Small,A8,2.0,4.0,,X,Regular Gasoline,9.8,231,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.0,B - Above Average
+2024,Lincoln,Nautilus Hybrid AWD,Sport utility vehicle: Small,AV,2.0,4.0,,X,Regular Gasoline,7.7,180,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.4,A - Best in Class
+2024,Lincoln,Navigator 4WD,Sport utility vehicle: Standard,AS10,3.5,6.0,,X,Regular Gasoline,13.2,310,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.0,D - High Emissions
+2024,Lucid,Air Sapphire AWD,Full-size,A1,,,930.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Maserati,Ghibli GT,Mid-size,A8,3.0,6.0,,Z,Premium Gasoline,11.6,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Maserati,Ghibli Modena,Mid-size,A8,3.0,6.0,,Z,Premium Gasoline,11.6,271,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.4,C - Below Average
+2024,Maserati,Ghibli Modena AWD,Mid-size,A8,3.0,6.0,,Z,Premium Gasoline,12.0,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Maserati,Ghibli Trofeo,Mid-size,A8,3.8,8.0,,Z,Premium Gasoline,14.9,348,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.8,D - High Emissions
+2024,Maserati,Granturismo Modena,Subcompact,A8,3.0,6.0,,Z,Premium Gasoline,11.1,256,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.9,C - Below Average
+2024,Maserati,Granturismo Trofeo,Subcompact,A8,3.0,6.0,,Z,Premium Gasoline,11.1,256,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.9,C - Below Average
+2024,Maserati,Grecale GT,Sport utility vehicle: Small,A8,2.0,4.0,,Z,Premium Gasoline,9.4,218,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.1,B - Above Average
+2024,Maserati,Grecale Modena,Sport utility vehicle: Small,A8,2.0,4.0,,Z,Premium Gasoline,9.4,218,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.1,B - Above Average
+2024,Maserati,Grecale Trofeo,Sport utility vehicle: Small,A8,3.0,6.0,,Z,Premium Gasoline,11.6,268,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.9,C - Below Average
+2024,Maserati,Levante GT,Sport utility vehicle: Standard,A8,3.0,6.0,,Z,Premium Gasoline,13.2,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Maserati,Levante Modena,Sport utility vehicle: Standard,A8,3.0,6.0,,Z,Premium Gasoline,13.2,308,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),49.3,D - High Emissions
+2024,Maserati,Levante Modena V8,Sport utility vehicle: Standard,A8,3.8,8.0,,Z,Premium Gasoline,15.0,349,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.6,D - High Emissions
+2024,Maserati,Levante Trofeo,Sport utility vehicle: Standard,A8,3.8,8.0,,Z,Premium Gasoline,15.0,349,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.6,D - High Emissions
+2024,Maserati,MC20,Two-seater,AS8,3.0,6.0,,Z,Premium Gasoline,12.8,295,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.5,D - High Emissions
+2024,Maserati,MC20 Spyder,Two-seater,AS8,3.0,6.0,,Z,Premium Gasoline,12.8,299,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.8,D - High Emissions
+2024,Maserati,Quattroporte GT,Full-size,A8,3.0,6.0,,Z,Premium Gasoline,12.1,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Maserati,Quattroporte Modena,Full-size,A8,3.0,6.0,,Z,Premium Gasoline,12.1,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Maserati,Quattroporte Modena AWD,Full-size,A8,3.0,6.0,,Z,Premium Gasoline,12.0,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Maserati,Quattroporte Trofeo,Full-size,A8,3.8,8.0,,Z,Premium Gasoline,14.9,348,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),42.8,D - High Emissions
+2024,Mazda,CX-30 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,8.2,192,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.4,B - Above Average
+2024,Mazda,CX-30 Turbo 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,9.3,220,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.8,B - Above Average
+2024,Mazda,CX-5 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,9.3,216,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.5,B - Above Average
+2024,Mazda,CX-5 4WD (Cylinder Deactivation),Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,8.5,199,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.3,B - Above Average
+2024,Mazda,CX-5 Turbo 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,9.8,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Mazda,CX-50 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,8.9,209,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.6,B - Above Average
+2024,Mazda,CX-50 Turbo 4WD,Sport utility vehicle: Small,AS6,2.5,4.0,,X,Regular Gasoline,9.4,221,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.7,B - Above Average
+2024,Mazda,CX-90 4WD,Sport utility vehicle: Standard,AS8,3.3,6.0,,X,Regular Gasoline,9.3,216,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.5,B - Above Average
+2024,Mazda,CX-90 4WD (High Power),Sport utility vehicle: Standard,AS8,3.3,6.0,,Z,Premium Gasoline,9.5,222,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.5,B - Above Average
+2024,Mazda,CX-90 PHEV 4WD,Sport utility vehicle: Standard,AS8,2.5,4.0,68.0,B/Z,Electricity + Premium Gasoline,4.2,105,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,82.7,A - Best in Class
+2024,Mazda,MX-30,Mid-size,A1,,,107.0,B,Electricity (Battery),2.6,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Mazda,MX-5,Two-seater,AS6,2.0,4.0,,Z,Premium Gasoline,8.0,187,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.2,B - Above Average
+2024,Mazda,MX-5 (SIL),Two-seater,M6,2.0,4.0,,Z,Premium Gasoline,8.1,189,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.9,B - Above Average
+2024,Mazda,Mazda3 4-Door,Compact,AS6,2.5,4.0,,X,Regular Gasoline,7.5,175,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.2,A - Best in Class
+2024,Mazda,Mazda3 4-Door 4WD,Compact,AS6,2.5,4.0,,X,Regular Gasoline,7.9,185,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.6,B - Above Average
+2024,Mazda,Mazda3 4-Door Turbo 4WD,Compact,AS6,2.5,4.0,,X,Regular Gasoline,8.8,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Mazda,Mazda3 5-Door,Mid-size,AS6,2.5,4.0,,X,Regular Gasoline,7.6,178,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.7,A - Best in Class
+2024,Mazda,Mazda3 5-Door (SIL),Mid-size,M6,2.5,4.0,,X,Regular Gasoline,7.8,184,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.7,B - Above Average
+2024,Mazda,Mazda3 5-Door 4WD,Mid-size,AS6,2.5,4.0,,X,Regular Gasoline,8.1,191,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.6,B - Above Average
+2024,Mazda,Mazda3 5-Door Turbo 4WD,Mid-size,AS6,2.5,4.0,,X,Regular Gasoline,8.9,209,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.6,B - Above Average
+2024,Mercedes-Benz,AMG C 63 S E Performance,Compact,AM9,2.0,4.0,150.0,B/Z,Electricity + Premium Gasoline,5.9,217,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,64.3,B - Above Average
+2024,Mercedes-Benz,AMG CLA 35 4MATIC Coupe,Compact,AM8,2.0,4.0,,Z,Premium Gasoline,9.6,225,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.0,B - Above Average
+2024,Mercedes-Benz,AMG CLA 45 S 4MATIC Coupe,Compact,AM8,2.0,4.0,,Z,Premium Gasoline,10.3,242,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.2,B - Above Average
+2024,Mercedes-Benz,AMG G 63 4x4 Squared SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,21.7,508,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),16.4,D - High Emissions
+2024,Mercedes-Benz,AMG G 63 SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,17.7,415,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),31.7,D - High Emissions
+2024,Mercedes-Benz,AMG GLA 35 4MATIC Coupe,Station wagon: Small,AM8,2.0,4.0,,Z,Premium Gasoline,9.9,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Mercedes-Benz,AMG GLB 35 4MATIC Coupe,Station wagon: Small,AM8,2.0,4.0,,Z,Premium Gasoline,10.4,238,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.9,B - Above Average
+2024,Mercedes-Benz,AMG GLE 53 4MATIC+ Coupe,Sport utility vehicle: Standard,A9,3.0,6.0,,Z,Premium Gasoline,11.6,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Mercedes-Benz,AMG GLE 53 4MATIC+ SUV,Sport utility vehicle: Standard,A9,3.0,6.0,,Z,Premium Gasoline,11.7,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Mercedes-Benz,AMG GLE 63 S 4MATIC+ Coupe,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,14.7,343,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.6,D - High Emissions
+2024,Mercedes-Benz,AMG GLE 63 S 4MATIC+ SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,14.7,343,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.6,D - High Emissions
+2024,Mercedes-Benz,AMG GLS 63 4MATIC+ SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,15.2,357,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.3,D - High Emissions
+2024,Mercedes-Benz,C 300 4MATIC Sedan,Compact,A9,2.0,4.0,,Z,Premium Gasoline,8.8,206,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.1,B - Above Average
+2024,Mercedes-Benz,CLA 250 4MATIC Coupe,Compact,AM8,2.0,4.0,,Z,Premium Gasoline,8.3,194,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.1,B - Above Average
+2024,Mercedes-Benz,EQB 250+,Sport utility vehicle: Small,A1,,,142.0,B,Electricity (Battery),2.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Mercedes-Benz,G 550 SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,16.3,383,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),37.0,D - High Emissions
+2024,Mercedes-Benz,GLA 250 4MATIC SUV,Sport utility vehicle: Small,AM8,2.0,4.0,,Z,Premium Gasoline,8.6,202,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.8,B - Above Average
+2024,Mercedes-Benz,GLB 250 4MATIC SUV,Sport utility vehicle: Small,AM8,2.0,4.0,,Z,Premium Gasoline,8.7,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Mercedes-Benz,GLC 300 4MATIC Coupe,Sport utility vehicle: Small,A9,2.0,4.0,,Z,Premium Gasoline,9.0,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Mercedes-Benz,GLC 300 4MATIC SUV,Sport utility vehicle: Small,A9,2.0,4.0,,Z,Premium Gasoline,9.0,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Mercedes-Benz,GLE 350 4MATIC SUV,Sport utility vehicle: Standard,A9,2.0,4.0,,Z,Premium Gasoline,10.2,238,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),60.9,B - Above Average
+2024,Mercedes-Benz,GLE 450 4MATIC Coupe,Sport utility vehicle: Standard,A9,3.0,6.0,,Z,Premium Gasoline,10.8,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Mercedes-Benz,GLE 450 4MATIC SUV,Sport utility vehicle: Standard,A9,3.0,6.0,,Z,Premium Gasoline,10.8,252,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.6,C - Below Average
+2024,Mercedes-Benz,GLE 450e 4MATIC SUV,Sport utility vehicle: Standard,A9,2.0,4.0,100.0,B/Z,Electricity + Premium Gasoline,4.1,63,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,89.6,A - Best in Class
+2024,Mercedes-Benz,GLS 450 4MATIC SUV,Sport utility vehicle: Standard,A9,3.0,6.0,,Z,Premium Gasoline,11.3,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Mercedes-Benz,GLS 580 4MATIC SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,14.6,344,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.4,D - High Emissions
+2024,Mercedes-Benz,GLS 600 4MATIC Maybach SUV,Sport utility vehicle: Standard,A9,4.0,8.0,,Z,Premium Gasoline,15.6,364,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),40.1,D - High Emissions
+2024,Mercedes-Benz,Maybach S 580 4MATIC Sedan,Full-size,A9,4.0,8.0,,Z,Premium Gasoline,11.3,266,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.2,C - Below Average
+2024,Mercedes-Benz,S 580 4MATIC Sedan,Full-size,A9,4.0,8.0,,Z,Premium Gasoline,11.0,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,A9,3.0,6.0,110.0,B/Z,Electricity + Premium Gasoline,3.9,69,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,88.7,A - Best in Class
+2024,Mini,Cooper 3 Door,Subcompact,AM7,1.5,3.0,,Z,Premium Gasoline,7.3,170,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.0,A - Best in Class
+2024,Mini,Cooper 3 Door,Subcompact,M6,1.5,3.0,,Z,Premium Gasoline,7.5,176,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.1,A - Best in Class
+2024,Mini,Cooper 5 Door,Subcompact,AM7,1.5,3.0,,Z,Premium Gasoline,7.3,170,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.0,A - Best in Class
+2024,Mini,Cooper 5 Door,Subcompact,M6,1.5,3.0,,Z,Premium Gasoline,7.5,176,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.1,A - Best in Class
+2024,Mini,Cooper Convertible,Minicompact,AM7,1.5,3.0,,Z,Premium Gasoline,7.3,170,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.0,A - Best in Class
+2024,Mini,Cooper Convertible,Minicompact,M6,1.5,3.0,,Z,Premium Gasoline,7.5,176,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.1,A - Best in Class
+2024,Mini,Cooper Countryman ALL4,Mid-size,AS8,1.5,3.0,,Z,Premium Gasoline,9.0,209,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.6,B - Above Average
+2024,Mini,Cooper S 3 Door,Subcompact,AM7,2.0,4.0,,Z,Premium Gasoline,7.5,174,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.4,A - Best in Class
+2024,Mini,Cooper S 3 Door,Subcompact,M6,2.0,4.0,,Z,Premium Gasoline,8.8,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Mini,Cooper S 5 Door,Subcompact,AM7,2.0,4.0,,Z,Premium Gasoline,7.5,174,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.4,A - Best in Class
+2024,Mini,Cooper S 5 Door,Subcompact,M6,2.0,4.0,,Z,Premium Gasoline,8.8,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Mini,Cooper S Convertible,Minicompact,AM7,2.0,4.0,,Z,Premium Gasoline,7.8,182,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.1,A - Best in Class
+2024,Mini,Cooper S Convertible,Minicompact,M6,2.0,4.0,,Z,Premium Gasoline,8.8,205,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.3,B - Above Average
+2024,Mini,Cooper S Countryman ALL4,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.1,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Mini,John Cooper Works 3 Door,Subcompact,AS8,2.0,4.0,,Z,Premium Gasoline,8.0,186,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.4,B - Above Average
+2024,Mini,John Cooper Works 3 Door,Subcompact,M6,2.0,4.0,,Z,Premium Gasoline,9.2,215,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.6,B - Above Average
+2024,Mini,John Cooper Works Convertible,Minicompact,AS8,2.0,4.0,,Z,Premium Gasoline,8.5,197,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.6,B - Above Average
+2024,Mini,John Cooper Works Countryman ALL4,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.0,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Mitsubishi,Eclipse Cross 4WD,Sport utility vehicle: Small,AV8,1.5,4.0,,X,Regular Gasoline,9.3,216,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.5,B - Above Average
+2024,Mitsubishi,Mirage,Compact,AV,1.2,3.0,,X,Regular Gasoline,6.2,143,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),76.5,A - Best in Class
+2024,Mitsubishi,Outlander 4WD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.9,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,A1,2.4,4.0,100.0,B/X,Electricity + Regular Gasoline,3.6,70,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,88.5,A - Best in Class
+2024,Mitsubishi,RVR,Sport utility vehicle: Small,AV6,2.0,4.0,,X,Regular Gasoline,8.9,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Mitsubishi,RVR 4WD,Sport utility vehicle: Small,AV6,2.0,4.0,,X,Regular Gasoline,9.1,213,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.0,B - Above Average
+2024,Mitsubishi,RVR 4WD,Sport utility vehicle: Small,AV6,2.4,4.0,,X,Regular Gasoline,9.4,218,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.1,B - Above Average
+2024,Nissan,ARIYA Engage,Station wagon: Small,A1,,,160.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Nissan,Altima AWD,Mid-size,AV,2.5,4.0,,X,Regular Gasoline,7.9,187,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.2,B - Above Average
+2024,Nissan,Altima AWD SR/Platinum,Mid-size,AV8,2.5,4.0,,X,Regular Gasoline,8.1,191,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.6,B - Above Average
+2024,Nissan,Armada 4WD,Sport utility vehicle: Standard,AS7,5.6,8.0,,Z,Premium Gasoline,15.4,363,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),40.3,D - High Emissions
+2024,Nissan,Frontier,Pickup truck: Standard,AS9,3.8,6.0,,X,Regular Gasoline,11.1,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Nissan,Frontier 4WD,Pickup truck: Standard,AS9,3.8,6.0,,X,Regular Gasoline,11.6,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Nissan,Frontier 4WD Pro-4X,Pickup truck: Standard,AS9,3.8,6.0,,X,Regular Gasoline,11.9,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Nissan,GT-R,Subcompact,AM6,3.8,6.0,,Z,Premium Gasoline,12.8,300,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),50.7,D - High Emissions
+2024,Nissan,Kicks,Mid-size,AV,1.6,4.0,,X,Regular Gasoline,7.2,169,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.2,A - Best in Class
+2024,Nissan,LEAF SV,Mid-size,A1,,,110.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Nissan,Murano AWD,Station wagon: Mid-size,AV7,3.5,6.0,,X,Regular Gasoline,10.4,245,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.7,C - Below Average
+2024,Nissan,Pathfinder 4WD,Sport utility vehicle: Small,AS9,3.5,6.0,,X,Regular Gasoline,10.6,248,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.2,C - Below Average
+2024,Nissan,Pathfinder 4WD Rock Creek,Sport utility vehicle: Standard,AS9,3.5,6.0,,Z,Premium Gasoline,11.1,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Nissan,Rogue,Sport utility vehicle: Small,AV8,1.5,3.0,,X,Regular Gasoline,7.2,169,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.2,A - Best in Class
+2024,Nissan,Rogue AWD,Sport utility vehicle: Small,AV8,1.5,3.0,,X,Regular Gasoline,7.6,179,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.6,A - Best in Class
+2024,Nissan,Rogue AWD SL/Platinum,Sport utility vehicle: Small,AV8,1.5,3.0,,X,Regular Gasoline,7.7,181,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.2,A - Best in Class
+2024,Nissan,Sentra,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,6.6,156,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.3,A - Best in Class
+2024,Nissan,Sentra,Mid-size,M6,2.0,4.0,,X,Regular Gasoline,8.0,189,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.9,B - Above Average
+2024,Nissan,Sentra SR,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,6.8,161,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.5,A - Best in Class
+2024,Nissan,Sentra SR,Mid-size,M6,2.0,4.0,,X,Regular Gasoline,8.2,194,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.1,B - Above Average
+2024,Nissan,Versa,Compact,AV,1.6,4.0,,X,Regular Gasoline,6.7,158,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.0,A - Best in Class
+2024,Nissan,Versa,Compact,M5,1.6,4.0,,X,Regular Gasoline,7.7,181,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.2,A - Best in Class
+2024,Nissan,Z,Two-seater,AS9,3.0,6.0,,Z,Premium Gasoline,10.6,250,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.9,C - Below Average
+2024,Nissan,Z,Two-seater,M6,3.0,6.0,,Z,Premium Gasoline,11.9,280,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.9,C - Below Average
+2024,Nissan,Z NISMO,Two-seater,AS9,3.0,6.0,,Z,Premium Gasoline,12.2,287,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.8,C - Below Average
+2024,Polestar,"2 Single Motor (19"" Wheels)",Mid-size,A1,,,220.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Porsche,718 Boxster,Two-seater,AM7,2.0,4.0,,Z,Premium Gasoline,10.0,233,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.7,B - Above Average
+2024,Porsche,718 Boxster,Two-seater,M6,2.0,4.0,,Z,Premium Gasoline,10.9,254,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.2,C - Below Average
+2024,Porsche,718 Boxster GTS 4.0,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,11.1,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Porsche,718 Boxster GTS 4.0,Two-seater,M6,4.0,6.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Porsche,718 Boxster S,Two-seater,AM7,2.5,4.0,,Z,Premium Gasoline,10.9,255,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.1,C - Below Average
+2024,Porsche,718 Boxster S,Two-seater,M6,2.5,4.0,,Z,Premium Gasoline,11.2,263,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Porsche,718 Cayman,Two-seater,AM7,2.0,4.0,,Z,Premium Gasoline,10.0,233,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.7,B - Above Average
+2024,Porsche,718 Cayman,Two-seater,M6,2.0,4.0,,Z,Premium Gasoline,10.9,254,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.2,C - Below Average
+2024,Porsche,718 Cayman GTS 4.0,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,11.1,260,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.2,C - Below Average
+2024,Porsche,718 Cayman GTS 4.0,Two-seater,M6,4.0,6.0,,Z,Premium Gasoline,12.2,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Porsche,718 Cayman S,Two-seater,AM7,2.5,4.0,,Z,Premium Gasoline,10.9,255,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.1,C - Below Average
+2024,Porsche,718 Cayman S,Two-seater,M6,2.5,4.0,,Z,Premium Gasoline,11.2,263,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Porsche,718 GT4 RS,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,14.4,338,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.4,D - High Emissions
+2024,Porsche,911 Carrera,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera 4,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera 4 Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera 4 GTS,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.1,288,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.6,C - Below Average
+2024,Porsche,911 Carrera 4 GTS,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,12.2,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Porsche,911 Carrera 4 GTS Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.3,288,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.6,C - Below Average
+2024,Porsche,911 Carrera 4 GTS Cabriolet,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,12.7,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Porsche,911 Carrera 4S,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.8,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera 4S,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.8,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera 4S Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.7,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Porsche,911 Carrera 4S Cabriolet,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,12.0,281,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.8,C - Below Average
+2024,Porsche,911 Carrera Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera GTS,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.1,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Porsche,911 Carrera GTS,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.9,276,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.6,C - Below Average
+2024,Porsche,911 Carrera GTS Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.2,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Porsche,911 Carrera GTS Cabriolet,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.9,278,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.3,C - Below Average
+2024,Porsche,911 Carrera S,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.7,274,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.9,C - Below Average
+2024,Porsche,911 Carrera S,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.3,264,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.6,C - Below Average
+2024,Porsche,911 Carrera S Cabriolet,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.7,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Porsche,911 Carrera S Cabriolet,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.8,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Carrera T,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.4,276,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.6,C - Below Average
+2024,Porsche,911 Carrera T,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.8,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Dakar,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.5,293,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.8,D - High Emissions
+2024,Porsche,911 GT3,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,15.1,355,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.6,D - High Emissions
+2024,Porsche,911 GT3,Two-seater,M6,4.0,6.0,,Z,Premium Gasoline,15.3,356,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.4,D - High Emissions
+2024,Porsche,911 GT3 RS,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,15.1,354,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.8,D - High Emissions
+2024,Porsche,911 GT3 Touring,Two-seater,AM7,4.0,6.0,,Z,Premium Gasoline,15.1,355,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.6,D - High Emissions
+2024,Porsche,911 GT3 Touring,Two-seater,M6,4.0,6.0,,Z,Premium Gasoline,15.3,356,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),41.4,D - High Emissions
+2024,Porsche,911 Targa 4,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.6,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Porsche,911 Targa 4 GTS,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,12.3,286,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.0,C - Below Average
+2024,Porsche,911 Targa 4 GTS,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,12.7,296,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),51.3,D - High Emissions
+2024,Porsche,911 Targa 4S,Minicompact,AM8,3.0,6.0,,Z,Premium Gasoline,11.8,274,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.9,C - Below Average
+2024,Porsche,911 Targa 4S,Minicompact,M7,3.0,6.0,,Z,Premium Gasoline,11.9,278,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.3,C - Below Average
+2024,Porsche,911 Turbo,Minicompact,AM8,3.7,6.0,,Z,Premium Gasoline,14.2,332,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),45.4,D - High Emissions
+2024,Porsche,911 Turbo Cabriolet,Minicompact,AM8,3.7,6.0,,Z,Premium Gasoline,14.5,339,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),44.2,D - High Emissions
+2024,Porsche,911 Turbo S,Minicompact,AM8,3.7,6.0,,Z,Premium Gasoline,14.4,345,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.3,D - High Emissions
+2024,Porsche,911 Turbo S Cabriolet,Minicompact,AM8,3.7,6.0,,Z,Premium Gasoline,14.5,341,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),43.9,D - High Emissions
+2024,Porsche,Cayenne,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.2,291,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.1,C - Below Average
+2024,Porsche,Cayenne Coupe,Sport utility vehicle: Standard,AS8,3.0,6.0,,Z,Premium Gasoline,12.2,291,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.1,C - Below Average
+2024,Porsche,Cayenne S,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,13.5,324,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.7,D - High Emissions
+2024,Porsche,Cayenne S Coupe,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,13.6,324,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.7,D - High Emissions
+2024,Porsche,Cayenne Turbo GT Coupe,Sport utility vehicle: Standard,AS8,4.0,8.0,,Z,Premium Gasoline,13.8,324,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.7,D - High Emissions
+2024,Porsche,Macan,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,11.0,263,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.7,C - Below Average
+2024,Porsche,Macan 4 Electric,Sport utility vehicle: Small,A1,,,265.0,B,Electricity (Battery),2.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Porsche,Macan GTS,Sport utility vehicle: Small,AM7,2.9,6.0,,Z,Premium Gasoline,12.2,290,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.3,C - Below Average
+2024,Porsche,Macan S,Sport utility vehicle: Small,AM7,2.9,6.0,,Z,Premium Gasoline,12.2,289,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.5,C - Below Average
+2024,Porsche,Macan T,Sport utility vehicle: Small,AM7,2.0,4.0,,Z,Premium Gasoline,11.0,259,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.4,C - Below Average
+2024,Ram,1500 4X4 TRX,Pickup truck: Standard,A8,6.2,8.0,,Z,Premium Gasoline,19.8,465,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),23.5,D - High Emissions
+2024,Ram,1500 4X4 eTorque,Pickup truck: Standard,A8,3.6,6.0,,X,Regular Gasoline,11.0,259,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.4,C - Below Average
+2024,Ram,1500 4X4 eTorque,Pickup truck: Standard,A8,5.7,8.0,,X,Regular Gasoline,12.1,284,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.3,C - Below Average
+2024,Ram,1500 eTorque,Pickup truck: Standard,A8,3.6,6.0,,X,Regular Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Ram,1500 eTorque,Pickup truck: Standard,A8,5.7,8.0,,X,Regular Gasoline,11.7,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Rivian,"R1S Dual Large (21"" Wheels)",Sport utility vehicle: Standard,A1,,,418.0,B,Electricity (Battery),3.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Rolls-Royce,Cullinan,Station wagon: Mid-size,AS8,6.7,12.0,,Z,Premium Gasoline,16.7,390,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),35.9,D - High Emissions
+2024,Rolls-Royce,Cullinan Black Badge,Station wagon: Mid-size,AS8,6.7,12.0,,Z,Premium Gasoline,16.7,390,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),35.9,D - High Emissions
+2024,Rolls-Royce,Ghost,Full-size,AS8,6.7,12.0,,Z,Premium Gasoline,16.7,388,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),36.2,D - High Emissions
+2024,Rolls-Royce,Ghost Black Badge,Full-size,AS8,6.7,12.0,,Z,Premium Gasoline,16.7,388,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),36.2,D - High Emissions
+2024,Rolls-Royce,Ghost Extended,Full-size,AS8,6.7,12.0,,Z,Premium Gasoline,16.7,388,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),36.2,D - High Emissions
+2024,Rolls-Royce,Phantom,Full-size,AS8,6.7,12.0,,Z,Premium Gasoline,17.0,397,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),34.7,D - High Emissions
+2024,Rolls-Royce,Phantom Extended,Full-size,AS8,6.7,12.0,,Z,Premium Gasoline,17.0,397,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),34.7,D - High Emissions
+2024,Subaru,Ascent AWD,Sport utility vehicle: Standard,AV8,2.4,4.0,,X,Regular Gasoline,11.0,256,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),57.9,C - Below Average
+2024,Subaru,BRZ,Minicompact,AS6,2.4,4.0,,Z,Premium Gasoline,9.5,224,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.2,B - Above Average
+2024,Subaru,BRZ,Minicompact,M6,2.4,4.0,,Z,Premium Gasoline,10.5,247,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.4,C - Below Average
+2024,Subaru,Crosstrek AWD,Sport utility vehicle: Small,AV8,2.0,4.0,,X,Regular Gasoline,8.0,188,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.1,B - Above Average
+2024,Subaru,Crosstrek AWD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.1,190,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.8,B - Above Average
+2024,Subaru,Crosstrek Wilderness AWD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.8,206,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.1,B - Above Average
+2024,Subaru,Forester AWD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.2,192,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.4,B - Above Average
+2024,Subaru,Forester Wilderness AWD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,9.0,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Subaru,Impreza AWD,Station wagon: Small,AV8,2.0,4.0,,X,Regular Gasoline,8.0,185,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.6,B - Above Average
+2024,Subaru,Impreza AWD,Station wagon: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.2,190,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.8,B - Above Average
+2024,Subaru,Legacy AWD,Mid-size,AV8,2.4,4.0,,X,Regular Gasoline,9.0,209,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.6,B - Above Average
+2024,Subaru,Outback AWD,Sport utility vehicle: Small,AV8,2.4,4.0,,X,Regular Gasoline,9.5,221,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.7,B - Above Average
+2024,Subaru,Outback AWD,Sport utility vehicle: Small,AV8,2.5,4.0,,X,Regular Gasoline,8.3,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Subaru,Outback Wilderness AWD,Sport utility vehicle: Small,AV8,2.4,4.0,,X,Regular Gasoline,10.1,235,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.3,B - Above Average
+2024,Subaru,Solterra AWD,Sport utility vehicle: Small,A1,,,160.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Subaru,WRX AWD,Mid-size,AV8,2.4,4.0,,Z,Premium Gasoline,11.2,262,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.9,C - Below Average
+2024,Subaru,WRX AWD,Mid-size,M6,2.4,4.0,,Z,Premium Gasoline,10.8,254,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.2,C - Below Average
+2024,Tesla,Model 3 RWD,Mid-size,A1,,,192.0,B,Electricity (Battery),1.8,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Tesla,Model S,Full-size,A1,,,494.0,B,Electricity (Battery),1.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Tesla,Model X,Sport utility vehicle: Standard,A1,,,494.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Tesla,Model Y RWD,Sport utility vehicle: Small,A1,,,203.0,B,Electricity (Battery),1.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Toyota,4Runner 4WD,Sport utility vehicle: Standard,AS5,4.0,6.0,,X,Regular Gasoline,13.8,323,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),46.9,D - High Emissions
+2024,Toyota,4Runner 4WD (Part-Time 4WD),Sport utility vehicle: Standard,AS5,4.0,6.0,,X,Regular Gasoline,13.8,320,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),47.4,D - High Emissions
+2024,Toyota,Camry AWD SE,Mid-size,AS8,2.5,4.0,,X,Regular Gasoline,8.2,192,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),68.4,B - Above Average
+2024,Toyota,Camry AWD XSE,Mid-size,AS8,2.5,4.0,,X,Regular Gasoline,8.4,195,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.9,B - Above Average
+2024,Toyota,Camry Hybrid LE,Mid-size,AV6,2.5,4.0,,X,Regular Gasoline,4.9,113,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.4,A - Best in Class
+2024,Toyota,Camry Hybrid SE/XLE/XSE,Mid-size,AV6,2.5,4.0,,X,Regular Gasoline,5.1,121,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),80.1,A - Best in Class
+2024,Toyota,Camry SE,Mid-size,AS8,2.5,4.0,,X,Regular Gasoline,7.4,174,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.4,A - Best in Class
+2024,Toyota,Camry XSE V6/TRD,Mid-size,AS8,3.5,6.0,,X,Regular Gasoline,9.2,215,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.6,B - Above Average
+2024,Toyota,Corolla (1-mode),Compact,AV10,2.0,4.0,,X,Regular Gasoline,6.7,158,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.0,A - Best in Class
+2024,Toyota,Corolla (3-mode),Compact,AV10,2.0,4.0,,X,Regular Gasoline,6.8,160,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.7,A - Best in Class
+2024,Toyota,Corolla Cross,Sport utility vehicle: Small,AV10,2.0,4.0,,X,Regular Gasoline,7.4,172,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),71.7,A - Best in Class
+2024,Toyota,Corolla Cross AWD,Sport utility vehicle: Small,AV10,2.0,4.0,,X,Regular Gasoline,7.8,183,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.9,A - Best in Class
+2024,Toyota,Corolla Cross Hybrid AWD,Sport utility vehicle: Small,AV6,2.0,4.0,,X,Regular Gasoline,5.6,130,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),78.6,A - Best in Class
+2024,Toyota,Corolla Hatchback,Compact,AV10,2.0,4.0,,X,Regular Gasoline,6.8,159,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.8,A - Best in Class
+2024,Toyota,Corolla Hybrid,Compact,AV,1.8,4.0,,X,Regular Gasoline,4.7,110,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.9,A - Best in Class
+2024,Toyota,Corolla Hybrid AWD (2-mode),Compact,AV,1.8,4.0,,X,Regular Gasoline,4.9,115,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.1,A - Best in Class
+2024,Toyota,Corolla Hybrid AWD (3-mode),Compact,AV,1.8,4.0,,X,Regular Gasoline,5.3,124,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),79.6,A - Best in Class
+2024,Toyota,Crown AWD,Mid-size,AS6,2.4,4.0,,X,Regular Gasoline,7.8,182,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.1,A - Best in Class
+2024,Toyota,Crown AWD,Mid-size,AV,2.5,4.0,,X,Regular Gasoline,5.7,133,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),78.1,A - Best in Class
+2024,Toyota,GR Corolla,Subcompact,M6,1.6,3.0,,Z,Premium Gasoline,9.8,229,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.3,B - Above Average
+2024,Toyota,GR Supra 2.0,Two-seater,AS8,2.0,4.0,,Z,Premium Gasoline,8.6,200,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.1,B - Above Average
+2024,Toyota,GR Supra 3.0,Two-seater,AS8,3.0,6.0,,Z,Premium Gasoline,9.1,212,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.1,B - Above Average
+2024,Toyota,GR Supra 3.0,Two-seater,M6,3.0,6.0,,Z,Premium Gasoline,10.9,255,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.1,C - Below Average
+2024,Toyota,GR86,Minicompact,AS6,2.4,4.0,,Z,Premium Gasoline,9.7,227,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.7,B - Above Average
+2024,Toyota,GR86,Minicompact,M6,2.4,4.0,,Z,Premium Gasoline,10.6,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Toyota,Grand Highlander AWD Limited,Sport utility vehicle: Standard,AS8,2.4,4.0,,X,Regular Gasoline,10.7,249,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),59.0,C - Below Average
+2024,Toyota,Grand Highlander AWD XLE,Sport utility vehicle: Standard,AS8,2.4,4.0,,X,Regular Gasoline,10.0,236,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.2,B - Above Average
+2024,Toyota,Grand Highlander Hybrid AWD Limited,Sport utility vehicle: Standard,AV6,2.5,4.0,,X,Regular Gasoline,7.0,161,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.5,A - Best in Class
+2024,Toyota,Grand Highlander Hybrid AWD XLE,Sport utility vehicle: Standard,AV6,2.5,4.0,,X,Regular Gasoline,7.0,161,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.5,A - Best in Class
+2024,Toyota,Grand Highlander Platinum Hybrid MAX AWD,Sport utility vehicle: Standard,AS6,2.4,4.0,,X,Regular Gasoline,8.8,206,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.1,B - Above Average
+2024,Toyota,Highlander AWD,Sport utility vehicle: Small,AS8,2.4,4.0,,X,Regular Gasoline,9.9,232,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.8,B - Above Average
+2024,Toyota,Highlander Hybrid AWD,Sport utility vehicle: Standard,AV,2.5,4.0,,X,Regular Gasoline,6.7,158,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.0,A - Best in Class
+2024,Toyota,Highlander Hybrid AWD Limited/Platinum,Sport utility vehicle: Standard,AV,2.5,4.0,,X,Regular Gasoline,6.7,156,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.3,A - Best in Class
+2024,Toyota,Prius AWD,Mid-size,AV,2.0,4.0,,X,Regular Gasoline,4.8,111,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),81.7,A - Best in Class
+2024,Toyota,Prius Plug-in Hybrid SE (Prime SE),Mid-size,AV,2.0,4.0,120.0,B/X,Electricity + Regular Gasoline,1.8,31,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,94.9,A - Best in Class
+2024,Toyota,RAV4 AWD,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,8.5,199,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.3,B - Above Average
+2024,Toyota,RAV4 AWD (Stop/Start),Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,8.0,187,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.2,B - Above Average
+2024,Toyota,RAV4 AWD LE,Sport utility vehicle: Small,AS8,2.5,4.0,,X,Regular Gasoline,7.9,184,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.7,B - Above Average
+2024,Toyota,RAV4 Hybrid AWD,Sport utility vehicle: Small,AV,2.5,4.0,,X,Regular Gasoline,6.0,139,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),77.1,A - Best in Class
+2024,Toyota,RAV4 Hybrid AWD Woodland Edition,Sport utility vehicle: Small,AV,2.5,4.0,,X,Regular Gasoline,6.4,149,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),75.5,A - Best in Class
+2024,Toyota,RAV4 Plug-in Hybrid (Prime),Sport utility vehicle: Small,AV,2.5,4.0,134.0,B/X,Electricity + Regular Gasoline,2.5,44,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,92.8,A - Best in Class
+2024,Toyota,Sequoia 4WD,Sport utility vehicle: Standard,AS10,3.4,6.0,,X,Regular Gasoline,11.7,273,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.1,C - Below Average
+2024,Toyota,Sienna,Minivan,AV,2.5,4.0,,X,Regular Gasoline,6.6,153,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.8,A - Best in Class
+2024,Toyota,Sienna AWD,Minivan,AV,2.5,4.0,,X,Regular Gasoline,6.7,158,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),74.0,A - Best in Class
+2024,Toyota,Tacoma 4WD,Pickup truck: Small,M6,2.4,4.0,,X,Regular Gasoline,11.9,279,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.1,C - Below Average
+2024,Toyota,Tacoma 4WD (2-mode),Pickup truck: Small,AS8,2.4,4.0,,X,Regular Gasoline,11.2,264,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.6,C - Below Average
+2024,Toyota,Tacoma 4WD (3-mode),Pickup truck: Small,AS8,2.4,4.0,,X,Regular Gasoline,11.4,269,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.8,C - Below Average
+2024,Toyota,Tundra,Pickup truck: Standard,AS10,3.4,6.0,,X,Regular Gasoline,11.7,275,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.8,C - Below Average
+2024,Toyota,Tundra 4WD,Pickup truck: Standard,AS10,3.4,6.0,,X,Regular Gasoline,12.2,285,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.1,C - Below Average
+2024,Toyota,Tundra 4WD TRD,Pickup truck: Standard,AS10,3.4,6.0,,X,Regular Gasoline,12.2,286,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),53.0,C - Below Average
+2024,Toyota,Tundra Hybrid 4WD,Pickup truck: Standard,AS10,3.4,6.0,,X,Regular Gasoline,11.7,274,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),54.9,C - Below Average
+2024,Toyota,Tundra Hybrid 4WD TRD PRO,Pickup truck: Standard,AS10,3.4,6.0,,X,Regular Gasoline,12.3,287,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),52.8,C - Below Average
+2024,Toyota,Venza AWD,Sport utility vehicle: Small,AV,2.5,4.0,,X,Regular Gasoline,6.1,141,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),76.8,A - Best in Class
+2024,Toyota,bZ4X,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Vinfast,VF8 ECO,Sport utility vehicle: Standard,A1,,,260.0,B,Electricity (Battery),3.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Volkswagen,Atlas 4MOTION Comfortline,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Volkswagen,Atlas 4MOTION Highline/Execline,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,11.2,262,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),56.9,C - Below Average
+2024,Volkswagen,Atlas 4MOTION Peak Edition,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,11.5,270,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),55.6,C - Below Average
+2024,Volkswagen,Atlas Cross Sport 4MOTION,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,10.8,253,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),58.4,C - Below Average
+2024,Volkswagen,Golf GTI,Compact,AM7,2.0,4.0,,X,Regular Gasoline,8.8,204,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.4,B - Above Average
+2024,Volkswagen,Golf GTI,Compact,M6,2.0,4.0,,X,Regular Gasoline,8.7,203,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.6,B - Above Average
+2024,Volkswagen,Golf R,Compact,AM7,2.0,4.0,,Z,Premium Gasoline,9.3,217,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.3,B - Above Average
+2024,Volkswagen,Golf R,Compact,M6,2.0,4.0,,Z,Premium Gasoline,10.2,237,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),61.0,B - Above Average
+2024,Volkswagen,ID.4,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Volkswagen,Jetta,Compact,AS8,1.5,4.0,,X,Regular Gasoline,6.9,162,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),73.4,A - Best in Class
+2024,Volkswagen,Jetta,Compact,M6,1.5,4.0,,X,Regular Gasoline,7.0,165,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.9,A - Best in Class
+2024,Volkswagen,Jetta Comfortline/Highline,Compact,AS8,1.5,4.0,,X,Regular Gasoline,7.1,168,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),72.4,A - Best in Class
+2024,Volkswagen,Jetta GLI,Compact,AM7,2.0,4.0,,X,Regular Gasoline,7.9,185,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),69.6,B - Above Average
+2024,Volkswagen,Jetta GLI,Compact,M6,2.0,4.0,,X,Regular Gasoline,8.4,198,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.4,B - Above Average
+2024,Volkswagen,Taos,Sport utility vehicle: Small,AS8,1.5,4.0,,X,Regular Gasoline,7.5,178,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),70.7,A - Best in Class
+2024,Volkswagen,Taos 4MOTION,Sport utility vehicle: Small,AM7,1.5,4.0,,X,Regular Gasoline,8.8,208,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.8,B - Above Average
+2024,Volkswagen,Tiguan 4MOTION,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,9.4,222,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.5,B - Above Average
+2024,Volkswagen,Tiguan R-Line 4MOTION,Sport utility vehicle: Small,AS8,2.0,4.0,,X,Regular Gasoline,9.7,228,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.5,B - Above Average
+2024,Volvo,C40 Recharge,Sport utility vehicle: Small,A1,,,185.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2024,Volvo,S60 B5 AWD,Compact,AS8,2.0,4.0,,Z,Premium Gasoline,8.4,196,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),67.8,B - Above Average
+2024,Volvo,S60 T8 AWD Recharge,Compact,AS8,2.0,4.0,107.0,B/Z,Electricity + Premium Gasoline,3.0,58,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,90.5,A - Best in Class
+2024,Volvo,S90 B6 AWD,Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.2,216,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),64.5,B - Above Average
+2024,Volvo,V60 CC B5 AWD,Station wagon: Small,AS8,2.0,4.0,,Z,Premium Gasoline,8.9,207,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),66.0,B - Above Average
+2024,Volvo,V90 CC B6 AWD,Station wagon: Mid-size,AS8,2.0,4.0,,Z,Premium Gasoline,9.5,223,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),63.3,B - Above Average
+2024,Volvo,XC40 B5 AWD,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,9.0,210,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),65.5,B - Above Average
+2024,Volvo,XC60 B5 AWD,Sport utility vehicle: Small,AS8,2.0,4.0,,Z,Premium Gasoline,9.6,226,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.8,B - Above Average
+2024,Volvo,XC90 B6 AWD,Sport utility vehicle: Standard,AS8,2.0,4.0,,Z,Premium Gasoline,9.8,230,Conventional ICE (Gasoline),ICE / Conventional (2024 Fuel Consumption Ratings),62.2,B - Above Average
+2024,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,AS8,2.0,4.0,107.0,B/Z,Electricity + Premium Gasoline,3.8,82,Plug-in Hybrid (PHEV),Plug-in Hybrid Electric Vehicles 2012-2025,86.5,A - Best in Class
+2025,Audi,A6 60 e-tron,Full-size,A1,,,315.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Audi,Q4 45 e-tron,Sport utility vehicle: Standard,A1,,,210.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Bmw,"i4 eDrive35 Gran Coupe (18"" Wheels)",Compact,A1,,,210.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Cadillac,CELESTIQ,Station wagon: Mid-size,A1,,,375.0,B,Electricity (Battery),2.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Chevrolet,Blazer EV,Sport utility vehicle: Small,A1,,,180.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Chevrolet,Equinox EV,Sport utility vehicle: Small,A1,,,180.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Chevrolet,Silverado EV LT Ext Range (11.5 kW Charger),Pickup truck: Standard,A1,,,377.0,B,Electricity (Battery),3.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Dodge,"Charger Daytona R/T AWD 2Dr (18"" Nexen Tire)",Full-size,A1,,,370.0,B,Electricity (Battery),2.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Fiat,500e,Minicompact,A1,,,87.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Ford,F-150 Lightning Standard Range,Pickup truck: Standard,A1,,,318.0,B,Electricity (Battery),3.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Ford,Mustang Mach-E Standard Range,Sport utility vehicle: Small,A1,,,197.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Gmc,HUMMER EV2X Pickup,Pickup truck: Standard,A1,,,430.0,B,Electricity (Battery),4.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Hyundai,IONIQ 5 Standard Range,Sport utility vehicle: Small,A1,,,125.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Jeep,Wagoneer S AWD (Falken Tire),Sport utility vehicle: Standard,A1,,,500.0,B,Electricity (Battery),2.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Kia,EV6 Light,Sport utility vehicle: Small,A1,,,125.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Kia,Niro EV,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Lucid,"Air Pure (19"" Wheels)",Full-size,A1,,,330.0,B,Electricity (Battery),1.6,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Mercedes-Benz,EQB 250+,Sport utility vehicle: Small,A1,,,140.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Mini,"Countryman SE ALL4 (18"" Wheels)",Sport utility vehicle: Small,A1,,,225.0,B,Electricity (Battery),2.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Nissan,ARIYA Engage,Station wagon: Small,A1,,,160.0,B,Electricity (Battery),2.3,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Polestar,"2 Single Motor (19"" Wheels)",Mid-size,A1,,,220.0,B,Electricity (Battery),2.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Polestar,"3 Long Range Single Motor (20"" Wheels)",Sport utility vehicle: Standard,A1,,,220.0,B,Electricity (Battery),2.5,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Polestar,4 Long Range Single Motor,Sport utility vehicle: Standard,A1,,,200.0,B,Electricity (Battery),2.6,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Porsche,Macan Electric,Sport utility vehicle: Small,A1,,,250.0,B,Electricity (Battery),2.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Rivian,"R1S Dual Standard (20"" Wheels)",Sport utility vehicle: Standard,A1,,,418.0,B,Electricity (Battery),3.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Rolls-Royce,"Spectre (22"" Wheels)",Compact,A1,,,430.0,B,Electricity (Battery),3.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Tesla,Cybertruck AWD,Pickup truck: Standard,A1,,,449.0,B,Electricity (Battery),3.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Tesla,Model 3 Long Range-I,Mid-size,A1,,,225.0,B,Electricity (Battery),1.7,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Tesla,Model S,Full-size,A1,,,491.0,B,Electricity (Battery),1.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Tesla,Model X,Sport utility vehicle: Standard,A1,,,491.0,B,Electricity (Battery),2.4,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Tesla,Model Y Long Range-I,Sport utility vehicle: Small,A1,,,221.0,B,Electricity (Battery),1.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Toyota,bZ4X,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.0,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Vinfast,VF7 PLUS,Sport utility vehicle: Standard,A1,,,260.0,B,Electricity (Battery),3.1,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Volkswagen,ID. Buzz Pro,Minivan,A1,,,210.0,B,Electricity (Battery),2.8,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Volkswagen,ID.4,Sport utility vehicle: Small,A1,,,150.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Volvo,EC40,Sport utility vehicle: Small,A1,,,185.0,B,Electricity (Battery),2.2,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class
+2025,Volvo,"EX90 Twin Motor (20"" and 22"" Wheels)",Sport utility vehicle: Standard,A1,,,300.0,B,Electricity (Battery),2.9,0,Battery Electric (BEV),Battery-Electric Vehicles 2012-2025,100.0,A - Best in Class

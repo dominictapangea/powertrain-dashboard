@@ -1,0 +1,41 @@
+# Python environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials / secrets (Google Cloud, API keys, env files)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*credentials*.json
+*service-account*.json
+*service_account*.json
+*serviceaccount*.json
+client_secret*.json
+application_default_credentials.json
+*.tfvars
+.config/gcloud/
+
+# Temporary / OS / editor files
+*.tmp
+*.temp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Power BI local artifacts (keep .pbix out unless added deliberately)
+*.pbix.tmp
+.pbi/

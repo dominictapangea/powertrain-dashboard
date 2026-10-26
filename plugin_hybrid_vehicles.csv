@@ -1,0 +1,44 @@
+Model year,Make,Model,Vehicle class,Motor (kW),Engine size (L),Cylinders,Transmission,Fuel type 1,Combined Le/100 km,Range 1 (km),Recharge time (h),Fuel type 2,City (L/100 km),Highway (L/100 km),Combined (L/100 km),Range 2 (km),CO2 emissions (g/km),CO2 rating,Smog rating
+2023,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,105,2.0,4,AM7,B/Z*,3.9 ([34.8 kWh + 0.0 L]/100 km),37,3,Z,9.3,8.7,9.0,600,92,9,7
+2023,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,100,3.0,6,AS8,B/Z*,5.0 ([44.2 kWh + 0.0 L]/100 km),31,3,Z,13.3,9.8,11.7,652,138,7,3
+2023,BMW,330e Sedan,Compact,80,2.0,4,AS8,B/Z*,3.2 ([28.2 kWh + 0.0 L]/100 km),35,3,Z,9.9,7.4,8.8,468,98,9,7
+2023,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,10,7
+2023,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,62,2.5,4,AV,B/X*,2.3 ([20.6 kWh + 0.0 L]/100 km),60,3.4,X,5.6,6.3,5.9,771,49,10,8
+2023,Hyundai,Santa Fe Plug-in Hybrid,Sport utility vehicle: Small,67,1.6,4,AM6,B/X*,3.1 ([27.5 kWh + 0.0 L]/100 km),50,3.4,X,7.1,7.3,7.2,655,69,10,7
+2023,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,100,2.0,4,A8,B/X*,4.2 ([36.0 kWh + 0.0 L]/100 km),42,3.4,X,10.3,9.7,10.0,719,110,8,7
+2023,Kia,Niro Plug-in Hybrid,Station wagon: Small,62,1.6,4,AM6,B/X*,2.1 ([19.2 kWh + 0.0 L]/100 km),55,2.8,X,4.6,4.9,4.8,781,42,10,7
+2023,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,134,2.5,4,AV6,B/Z*,2.8 ([24.7 kWh + 0.0 L]/100 km),61,4.5,Z,6.2,7.0,6.6,835,54,10,7
+2023,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,110,3.0,6,A9,B/Z,4.6 ([30.4 kWh + 1.2 L]/100 km),90,2.25,Z,11.5,8.2,10.0,671,67,10,7
+2023,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,100,2.4,4,A1,B/X*,3.6 ([32.1 kWh + 0.0 L]/100 km),61,6.5,X,9.2,8.7,9.0,626,70,10,7
+2023,Subaru,Crosstrek Hybrid AWD,Sport utility vehicle: Small,100,2.0,4,AV,B/X*,2.6 ([23.5 kWh + 0.0 L]/100 km),27,2,X,6.6,6.8,6.7,747,94,9,6
+2023,Toyota,Prius Prime SE,Mid-size,120,2.0,4,AV,B/X*,1.8 ([16.4 kWh + 0.0 L]/100 km),72,4,X,4.4,4.6,4.5,890,31,10,7
+2023,Toyota,RAV4 Prime,Sport utility vehicle: Small,134,2.5,4,AV,B/X*,2.5 ([22.3 kWh + 0.0 L]/100 km),68,4.5,X,5.7,6.4,6.0,911,44,10,7
+2023,Volvo,S60 T8 AWD Recharge,Compact,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2023,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,107,2.0,4,AS8,B/Z*,3.8 ([34.4 kWh + 0.0 L]/100 km),53,5,Z,9.1,8.6,8.9,803,82,9,7
+2024,Alfa Romeo,Tonale PHEV,Sport utility vehicle: Small,89,1.3,4,A6,B/X*,3.1 ([27.2 kWh + 0.0 L]/100 km),53,4,X,8.1,8.1,8.1,520,75,9,6
+2024,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,105,2.0,4,AM7,B/Z*,4.1 ([36.2 kWh + 0.0 L]/100 km),39,3,Z,9.4,8.7,9.1,595,93,9,7
+2024,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,100,3.0,6,AS8,B/Z*,5.6 ([49.4 kWh + 0.0 L]/100 km),34,3,Z,12.3,10.1,11.3,668,128,8,3
+2024,BMW,330e Sedan,Compact,80,2.0,4,AS8,B/Z*,3.2 ([28.2 kWh + 0.0 L]/100 km),35,3,Z,9.9,7.4,8.8,468,98,8,7
+2024,BMW,750e xDrive Sedan,Full-size,145,3.0,6,AS8,B/Z,3.6 ([31.1 kWh + 0.1 L]/100 km),55,5,Z,9.9,8.8,9.4,695,82,9,7
+2024,BMW,X5 xDrive50e,Sport utility vehicle: Standard,145,3.0,6,AS8,B/Z*,4.0 ([35.9 kWh + 0.0 L]/100 km),63,5,Z,10.9,10.2,10.6,650,81,9,7
+2024,Chrysler,Pacifica Hybrid,Minivan,89,3.6,6,AV,B/X*,2.9 ([25.8 kWh + 0.0 L]/100 km),51,2,X,8.0,7.9,8.0,784,74,9,7
+2024,Dodge,Hornet R/T PHEV,Sport utility vehicle: Small,89,1.3,4,A6,B/X*,3.1 ([27.2 kWh + 0.0 L]/100 km),53,4,X,8.1,8.1,8.1,520,75,9,6
+2024,Ferrari,296 GTB,Two-seater,137,2.9,6,AM8,B/Z*,5.0 ([45.0 kWh + 0.0 L]/100 km),13,2.5,Z,15.2,10.7,13.2,526,247,5,6
+2024,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,62,2.5,4,AV,B/X*,2.3 ([20.6 kWh + 0.0 L]/100 km),60,3.4,X,5.6,6.3,5.9,771,49,10,8
+2024,Hyundai,Tucson Plug-in Hybrid,Sport utility vehicle: Small,67,1.6,4,AM6,B/X*,2.9 ([25.9 kWh + 0.0 L]/100 km),53,1.7,X,6.8,6.6,6.7,626,62,9,7
+2024,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,100,2.0,4,A8,B/X*,4.2 ([36.0 kWh + 0.0 L]/100 km),42,3.4,X,10.3,9.7,10.0,719,110,8,7
+2024,Jeep,Wrangler 4xe,Sport utility vehicle: Small,100,2.0,4,A8,B/X*,4.8 ([42.2 kWh + 0.0 L]/100 km),35,2.4,X,11.6,11.9,11.7,557,143,7,7
+2024,Kia,Niro Plug-in Hybrid,Sport utility vehicle: Small,62,1.6,4,AM6,B/X*,2.1 ([19.1 kWh + 0.0 L]/100 km),55,2.8,X,4.6,4.9,4.8,781,42,10,7
+2024,Kia,Sorento Plug-in Hybrid,Sport utility vehicle: Small,67,1.6,4,AM6,B/X*,3.0 ([26.4 kWh + 0.0 L]/100 km),51,3.4,X,6.7,7.1,6.9,681,65,9,7
+2024,Lamborghini,Revuelto,Two-seater,110,6.5,12,AM8,B/Z,10.4 ([49.7 kWh + 6.1 L]/100 km),8,2,Z,24.5,14.2,19.9,365,472,1,3
+2024,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,134,2.5,4,AV6,B/Z*,2.8 ([24.7 kWh + 0.0 L]/100 km),61,4.5,Z,6.2,7.0,6.6,835,54,10,7
+2024,Lexus,RX 450h+ AWD,Sport utility vehicle: Small,134,2.5,4,AV6,B/Z*,2.8 ([25.0 kWh + 0.0 L]/100 km),60,2.5,Z,6.4,7.1,6.7,818,55,10,7
+2024,Mazda,CX-90 PHEV 4WD,Sport utility vehicle: Standard,68,2.5,4,AS8,B/Z,4.2 ([36.0 kWh + 0.2 L]/100 km),42,2.1,Z,9.9,8.7,9.4,747,105,8,7
+2024,Mercedes-Benz,AMG C 63 S E Performance,Compact,150,2.0,4,AM9,B/Z,5.9 ([37.9 kWh + 1.5 L]/100 km),11,1.5,Z,12.1,10.1,11.2,539,217,5,5
+2024,Mercedes-Benz,GLE 450e 4MATIC SUV,Sport utility vehicle: Standard,100,2.0,4,A9,B/Z*,4.1 ([36.4 kWh + 0.0 L]/100 km),77,2.75,Z,10.5,9.1,9.9,663,63,9,7
+2024,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,110,3.0,6,A9,B/Z*,3.9 ([35.0 kWh + 0.0 L]/100 km),74,2.25,Z,11.5,8.2,10.0,687,69,9,7
+2024,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,100,2.4,4,A1,B/X*,3.6 ([32.1 kWh + 0.0 L]/100 km),61,6.5,X,9.2,8.7,9.0,626,70,9,7
+2024,Toyota,Prius Plug-in Hybrid SE (Prime SE),Mid-size,120,2.0,4,AV,B/X*,1.8 ([16.4 kWh + 0.0 L]/100 km),72,4,X,4.4,4.6,4.5,890,31,10,7
+2024,Toyota,RAV4 Plug-in Hybrid (Prime),Sport utility vehicle: Small,134,2.5,4,AV,B/X*,2.5 ([22.3 kWh + 0.0 L]/100 km),68,4.5,X,5.7,6.4,6.0,911,44,10,7
+2024,Volvo,S60 T8 AWD Recharge,Compact,107,2.0,4,AS8,B/Z*,3.0 ([27.2 kWh + 0.0 L]/100 km),64,5,Z,8.0,7.2,7.6,792,58,10,7
+2024,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,107,2.0,4,AS8,B/Z*,3.8 ([34.4 kWh + 0.0 L]/100 km),53,5,Z,9.1,8.6,8.9,803,82,9,7
