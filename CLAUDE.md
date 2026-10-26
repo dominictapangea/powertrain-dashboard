@@ -16,7 +16,7 @@ Limba de lucru cu utilizatorul: **română**. Codul, numele de coloane și comen
 | `queries_v2.sql` | 4 interogări BigQuery pentru KPI-uri și analize |
 | `venv/` | Mediu virtual Python (nu se editează, nu se analizează) |
 
-Repo git inițializat local (branch `main`, fără commit-uri și fără remote); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Power BI: `horse_dashboard.pbix` (66 KB, conectat la datele v2) și captura `docs/PowerBI_Dashboard.png` („Powertrain & Emissions Dashboard": 872 vehicule, CO2 mediu 223,87 g/km, consum mediu 9,80 Le/100km, 15,3% electrificate, filtre pe `vehicle_class` și `model_year`, două bar chart-uri pe tip de propulsie, notă despre CO2 la țeavă). Nu există în folder teste. Dashboard-urile Looker Studio Looker Studio/Power BI trăiesc în afara repo-ului.
+Repo git (branch `main`, remote `origin` = github.com/dominictapangea/powertrain-dashboard; commit-urile se fac fără trailer `Co-Authored-By`, cu emailul noreply de GitHub); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Power BI: `horse_dashboard.pbix` (66 KB, conectat la datele v2)  și captura `docs/PowerBI_Dashboard.png`. Looker Studio: `docs/Powertrain_Dashboard.pdf` (export pe datele v2, același layout și aceleași cifre ca în Power BI). „Powertrain & Emissions Dashboard": 872 vehicule, CO2 mediu 223,87 g/km, consum mediu 9,80 Le/100km, 15,3% electrificate, filtre pe `vehicle_class` și `model_year`, două bar chart-uri pe tip de propulsie, notă despre CO2 la țeavă). Nu există în folder teste. Dashboard-urile Looker Studio (PDF-urile v1 de mai jos) trăiesc în afara repo-ului.
 
 ## Pipeline
 
@@ -57,7 +57,9 @@ Query-uri: (1) KPI pe tip de propulsie, (2) evoluție CO2 an-de-an cu `LAG`, (3)
 - `Dominic_Tapangea_Powertrain_Dashboard_Portfolio.pdf` — „Automotive Powertrain & Emissions Intelligence Dashboard" (Looker Studio): tabel `powertrain_type` × `total_vehicles`, bar chart `avg_co2_emissions_g_km`, scorecard-uri (739 vehicule, 252,09 g/km, 13,95 L/100km).
 - `Raport_fără_titlu.pdf` — raport Looker Studio mai vechi, încă fără titlu: 392 vehicule, CO2 mediu 264,34, putere medie 104,47 CP, grafice pe `manufacturer`, `fuel_consumption_l_100km`, `engine_power_hp`.
 
-**Atenție: ambele PDF-uri sunt generate din date vechi (v1), nu din v2.** Folosesc categoriile `Conventional ICE / Hybrid Powertrain / Alternative Synthetic Fuel` și coloane (`engine_power_hp`, `fuel_consumption_l_100km`) care nu mai există în schema v2. Dashboard-ul trebuie reconectat la tabela v2 și PDF-ul de portofoliu regenerat.
+Versiunea actuală (v2) a dashboard-ului Looker Studio este `docs/Powertrain_Dashboard.pdf` din repo; cele două PDF-uri de mai sus rămân doar pe Desktop, ca istoric.
+
+**Atenție: ambele PDF-uri de pe Desktop sunt generate din date vechi (v1), nu din v2.** Folosesc categoriile `Conventional ICE / Hybrid Powertrain / Alternative Synthetic Fuel` și coloane (`engine_power_hp`, `fuel_consumption_l_100km`) care nu mai există în schema v2. Dashboard-ul trebuie reconectat la tabela v2 și PDF-ul de portofoliu regenerat.
 
 ## Erori găsite în analiza inițială și cum au fost reparate
 
@@ -88,7 +90,7 @@ Query-uri: (1) KPI pe tip de propulsie, (2) evoluție CO2 an-de-an cu `LAG`, (3)
 
 ## Următorii pași (prioritizați)
 1. Reîncarcă `cleaned_horse_powertrain_data_v2.csv` în BigQuery (`horse_updated.analytics`, schema nouă de 16 coloane).
-2. Reconectează Looker Studio la tabela nouă și regenerează PDF-ul de portofoliu (acum arată date vechi).
+2. Verifică că sursa Looker Studio e tabela BigQuery nouă (PDF-ul din `docs/` e deja pe date v2).
 3. Înlocuiește Query 2 cu o analiză mai informativă (pe clasă de vehicul / cilindree).
 4. Argumente CLI pentru căi, câteva teste pe schema output.
-5. Adaugă în `docs/` și capturi actualizate ale dashboard-ului Looker Studio, ca să fie documentat alături de Power BI.
+5. Adaugă în `docs/` o captură PNG a dashboard-ului Looker Studio (pentru previzualizare pe GitHub).
