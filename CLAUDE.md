@@ -16,7 +16,7 @@ Limba de lucru cu utilizatorul: **română**. Codul, numele de coloane și comen
 | `queries_v2.sql` | 4 interogări BigQuery pentru KPI-uri și analize |
 | `venv/` | Mediu virtual Python (nu se editează, nu se analizează) |
 
-Repo git inițializat local (branch `main`, fără commit-uri și fără remote); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Nu există în folder: fișier `.pbix` Power BI, teste. Dashboard-urile Looker Studio/Power BI trăiesc în afara repo-ului.
+Repo git inițializat local (branch `main`, fără commit-uri și fără remote); `.gitignore` exclude `venv/`, credențiale (`*.json` de cont de serviciu, `.env`, chei) și fișiere temporare. Dependențe: `pip install -r requirements.txt` (pandas 3.0.5, numpy 2.5.1). Power BI: `horse_dashboard.pbix` (66 KB, conectat la datele v2) și captura `docs/PowerBI_Dashboard.png` („Powertrain & Emissions Dashboard": 872 vehicule, CO2 mediu 223,87 g/km, consum mediu 9,80 Le/100km, 15,3% electrificate, filtre pe `vehicle_class` și `model_year`, două bar chart-uri pe tip de propulsie, notă despre CO2 la țeavă). Nu există în folder teste. Dashboard-urile Looker Studio Looker Studio/Power BI trăiesc în afara repo-ului.
 
 ## Pipeline
 
@@ -91,4 +91,4 @@ Query-uri: (1) KPI pe tip de propulsie, (2) evoluție CO2 an-de-an cu `LAG`, (3)
 2. Reconectează Looker Studio la tabela nouă și regenerează PDF-ul de portofoliu (acum arată date vechi).
 3. Înlocuiește Query 2 cu o analiză mai informativă (pe clasă de vehicul / cilindree).
 4. Argumente CLI pentru căi, câteva teste pe schema output.
-5. Power BI: exportă `.pbix` (sau capturi) în folder ca să fie documentat alături de Looker Studio.
+5. Adaugă în `docs/` și capturi actualizate ale dashboard-ului Looker Studio, ca să fie documentat alături de Power BI.
