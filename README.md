@@ -56,5 +56,5 @@ I also added a small terminal agent that answers plain-language questions about 
 ## Limitations
 
 - **CO2 is tailpipe only.** BEVs are 0 g/km by definition, so electricity generation and battery production aren't counted.
-- **ICE only exists for 2024** in my data, so the model-year filter removes ICE vehicles when you select 2023 or 2025, and the year-over-year view says little.
+- **ICE only exists for 2024** in my data, so the model-year filter removes ICE vehicles when you select 2023 or 2025, and year-over-year comparisons aren't meaningful.
 - **`eco_score` depends on the dataset.** It's scaled against the highest CO2 value in the current data, so adding vehicles can change every score.
