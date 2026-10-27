@@ -45,9 +45,14 @@ python etl_pipeline_v2.py
 
 It reads the three CSVs from the same folder and writes `cleaned_horse_powertrain_data_v2.csv`.
 
+## Ask the data a question
+
+I also added a small terminal agent that answers plain-language questions about the BigQuery table, like "What share of each vehicle class is electrified?". Gemini writes the SQL through a single `run_sql` tool, and every query is checked before it runs: one `SELECT`, only the `analytics` table, a forced `LIMIT`, and a cap on bytes billed. It prints the SQL it ran, so you can check the answer. Setup, example questions with real answers, and the tests are in [agent/README.md](agent/README.md).
+
 ## What I got wrong and fixed
 
 **PHEV consumption wasn't comparable.** I was using the gasoline-only column for plug-in hybrids, so electricity was ignored while BEVs were in Le/100 km, and the PHEV average looked like 8.5. I now parse the combined Le/100 km figure, which includes electricity, and the average is 3.6.
+
 ## Limitations
 
 - **CO2 is tailpipe only.** BEVs are 0 g/km by definition, so electricity generation and battery production aren't counted.
